@@ -17,8 +17,8 @@ public class CopyFilesCamelLogging {
                 @Override
                 public void configure() throws Exception {
                     from("file:data/input?noop=true")
-                            .to("log:?level=INFO&showBody=true")
-                            .log("Received Message is ${body}")
+                            //.to("log:?level=INFO&showBody=true&showHeaders=true")
+                            .log("Received Message is ${body} and Headers are ${headers}")
                             .to("file:data/output");
 
 
