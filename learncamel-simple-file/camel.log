@@ -316,3 +316,24 @@ Hello and Headers are {breadcrumbId=ID-6c4008c0f7fa-52258-1496801237615-0-3, Cam
 2017-06-08 17:00:55,627 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
 2017-06-08 17:00:55,637 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.203 seconds
 2017-06-08 17:00:55,637 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.016 seconds
+2017-06-09 07:15:30,793 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-09 07:15:30,796 | INFO | CamelTestSupport.java 228 | Testing: sampleRouteTest(com.learncamel.direct.SampleDirectRouteTest)
+2017-06-09 07:15:30,796 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-09 07:15:31,340 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-09 07:15:31,341 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-09 07:15:31,390 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-09 07:15:31,513 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-09 07:15:31,519 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://sampleInput
+2017-06-09 07:15:31,520 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-09 07:15:31,523 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.181 seconds
+2017-06-09 07:15:31,540 | INFO | CamelLogger.java 159 | Received Message is Hello and Headers are {breadcrumbId=ID-6c4008c0f7fa-65143-1497010530833-0-1}
+2017-06-09 07:15:37,591 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-09 07:15:37,591 | INFO | CamelTestSupport.java 374 | Testing done: sampleRouteTest(com.learncamel.direct.SampleDirectRouteTest)
+2017-06-09 07:15:37,591 | INFO | CamelTestSupport.java 375 | Took: 6.067 seconds (6067 millis)
+2017-06-09 07:15:37,591 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-09 07:15:37,599 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-09 07:15:37,601 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-09 07:15:37,603 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://sampleInput
+2017-06-09 07:15:37,603 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-09 07:15:37,613 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 6.274 seconds
+2017-06-09 07:15:37,613 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.014 seconds

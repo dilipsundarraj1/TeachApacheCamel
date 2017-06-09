@@ -21,11 +21,19 @@ public class SampleDirectRouteTest extends CamelTestSupport {
 
     @Test
     public void sampleRouteTest() throws InterruptedException {
+
         template.sendBody("direct:sampleInput","Hello" );
+
         Thread.sleep(5000);
         File file = new File("sampleOutput");
 
         assertTrue(file.isDirectory());
+
+        Exchange exchange = consumer.receive("file:sampleOutput");
+
+        System.out.println("Recieved body is :" + exchange.getIn().getBody());
+
+
     }
 
 }
