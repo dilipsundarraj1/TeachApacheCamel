@@ -25,6 +25,7 @@ public class SampleDirectRouteTest extends CamelTestSupport {
         template.sendBody("direct:sampleInput","Hello" );
 
         Thread.sleep(5000);
+        
         File file = new File("sampleOutput");
 
         assertTrue(file.isDirectory());

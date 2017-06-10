@@ -11,6 +11,6 @@ public class SampleDirectRoute extends RouteBuilder {
 
         from("direct:sampleInput")
                 .log("Received Message is ${body} and Headers are ${headers}")
-        .to("file:sampleOutput");
+        .to("file:sampleOutput?fileName=input.txt");
     }
 }
