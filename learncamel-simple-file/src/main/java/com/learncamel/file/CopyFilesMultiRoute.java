@@ -22,6 +22,9 @@ public class CopyFilesMultiRoute {
                             .to("file:data/output")
                             .to("file:data/anothetdestination");
 
+                    from("file:data/input1?noop=true")
+                            .to("file:data/nextoutput");
+
 
                 }
             });
