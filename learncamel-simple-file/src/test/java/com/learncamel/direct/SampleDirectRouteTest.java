@@ -32,9 +32,16 @@ public class SampleDirectRouteTest extends CamelTestSupport {
 
         Exchange exchange = consumer.receive("file:sampleOutput");
 
-        System.out.println("Recieved body is :" + exchange.getIn().getBody());
+        System.out.println("Received body is :" + exchange.getIn().getBody());
+        System.out.println("File Name is :" + exchange.getIn().getHeader("CamelFileName"));
 
+        assertEquals("output.txt", exchange.getIn().getHeader("CamelFileName"));
+
+        
 
     }
+
+
+
 
 }
