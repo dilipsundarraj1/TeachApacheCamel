@@ -1,0 +1,1367 @@
+2017-06-12 11:45:41,485 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 11:45:41,488 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:45:41,488 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 11:45:42,088 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 11:45:42,090 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 11:45:42,140 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 11:45:42,281 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 11:45:42,284 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 11:45:42,285 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 11:45:42,300 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 11:45:42,300 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 11:45:42,306 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.212 seconds
+2017-06-12 11:45:42,308 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 11:45:42,309 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:45:42,309 | INFO | CamelTestSupport.java 375 | Took: 0.002 seconds (2 millis)
+2017-06-12 11:45:42,309 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 11:45:42,318 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 11:45:42,319 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 11:45:42,322 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 11:45:42,323 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 11:45:42,342 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.254 seconds
+2017-06-12 11:45:42,342 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.024 seconds
+2017-06-12 11:46:00,216 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 11:46:00,218 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:46:00,219 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 11:46:00,653 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 11:46:00,654 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 11:46:00,698 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 11:46:00,817 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 11:46:00,821 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 11:46:00,822 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 11:46:00,838 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 11:46:00,839 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 11:46:00,842 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.187 seconds
+2017-06-12 11:46:00,843 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 11:46:00,843 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:46:00,844 | INFO | CamelTestSupport.java 375 | Took: 0.000 seconds (0 millis)
+2017-06-12 11:46:00,844 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 11:46:00,849 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 11:46:00,850 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 11:46:00,853 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 11:46:00,853 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 11:46:00,869 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.217 seconds
+2017-06-12 11:46:00,869 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.020 seconds
+2017-06-12 11:46:16,900 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 11:46:16,902 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:46:16,902 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 11:46:17,360 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 11:46:17,361 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 11:46:17,406 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 11:46:17,522 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 11:46:17,527 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 11:46:17,528 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 11:46:17,546 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input.txt?noop=true
+2017-06-12 11:46:17,547 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 11:46:17,552 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.188 seconds
+2017-06-12 11:46:17,553 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 11:46:17,553 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:46:17,554 | INFO | CamelTestSupport.java 375 | Took: 0.000 seconds (0 millis)
+2017-06-12 11:46:17,554 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 11:46:17,558 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 11:46:17,558 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 11:46:17,562 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input.txt?noop=true
+2017-06-12 11:46:17,562 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 11:46:17,578 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.219 seconds
+2017-06-12 11:46:17,579 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.020 seconds
+2017-06-12 11:46:39,252 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 11:46:39,256 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:46:39,256 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 11:46:39,690 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 11:46:39,691 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 11:46:39,743 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 11:46:39,863 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 11:46:39,869 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 11:46:39,869 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 11:46:39,885 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input.txt?noop=true
+2017-06-12 11:46:39,886 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 11:46:39,889 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.197 seconds
+2017-06-12 11:46:39,890 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 11:46:39,891 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:46:39,891 | INFO | CamelTestSupport.java 375 | Took: 0.000 seconds (0 millis)
+2017-06-12 11:46:39,891 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 11:46:39,895 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 11:46:39,896 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 11:46:39,899 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input.txt?noop=true
+2017-06-12 11:46:39,899 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 11:46:39,918 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.229 seconds
+2017-06-12 11:46:39,918 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.023 seconds
+2017-06-12 11:47:19,205 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 11:47:19,207 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:47:19,207 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 11:47:19,647 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 11:47:19,648 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 11:47:19,694 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 11:47:19,831 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 11:47:19,835 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 11:47:19,835 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 11:47:19,855 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 11:47:19,856 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 11:47:19,861 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.209 seconds
+2017-06-12 11:47:19,862 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 11:47:19,862 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:47:19,863 | INFO | CamelTestSupport.java 375 | Took: 0.000 seconds (0 millis)
+2017-06-12 11:47:19,863 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 11:47:19,867 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 11:47:19,867 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 11:47:19,870 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 11:47:19,870 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 11:47:19,884 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.237 seconds
+2017-06-12 11:47:19,884 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.017 seconds
+2017-06-12 11:48:54,962 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 11:48:54,964 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:48:54,965 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 11:48:55,401 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 11:48:55,401 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 11:48:55,454 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 11:48:55,575 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 11:48:55,579 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 11:48:55,580 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 11:48:55,597 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 11:48:55,598 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 11:48:55,602 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.198 seconds
+2017-06-12 11:48:55,603 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 11:48:55,604 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:48:55,604 | INFO | CamelTestSupport.java 375 | Took: 0.000 seconds (0 millis)
+2017-06-12 11:48:55,604 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 11:48:55,611 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 11:48:55,611 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 11:48:55,615 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 11:48:55,616 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 11:48:55,638 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.237 seconds
+2017-06-12 11:48:55,638 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.026 seconds
+2017-06-12 11:49:18,544 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 11:49:18,546 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:49:18,546 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 11:49:18,997 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 11:49:18,998 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 11:49:19,049 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 11:49:19,185 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 11:49:19,189 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 11:49:19,190 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 11:49:19,201 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 11:49:19,201 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 11:49:19,204 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.204 seconds
+2017-06-12 11:49:20,223 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-6c4008c0f7fa-56863-1497286158585-0-1 on ExchangeId: ID-6c4008c0f7fa-56863-1497286158585-0-2). Exhausted after delivery attempt: 1 caught: java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot be cast to java.lang.String
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://data/input?noop=true                                                   ] [         5]
+[route1            ] [process1          ] [Processor@0x55634720                                                          ] [         2]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot be cast to java.lang.String
+	at com.learncamel.processor.CamelExampleProcessor.process(CamelExampleProcessor.java:13)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:542)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:460)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:227)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:191)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:175)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-06-12 11:49:20,225 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@5b5da08 for file: GenericFile[input.txt]
+2017-06-12 11:49:20,734 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-6c4008c0f7fa-56863-1497286158585-0-3 on ExchangeId: ID-6c4008c0f7fa-56863-1497286158585-0-4). Exhausted after delivery attempt: 1 caught: java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot be cast to java.lang.String
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://data/input?noop=true                                                   ] [         1]
+[route1            ] [process1          ] [Processor@0x55634720                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot be cast to java.lang.String
+	at com.learncamel.processor.CamelExampleProcessor.process(CamelExampleProcessor.java:13)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:542)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:460)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:227)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:191)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:175)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-06-12 11:49:20,735 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@5b5da08 for file: GenericFile[input.txt]
+2017-06-12 11:49:21,242 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-6c4008c0f7fa-56863-1497286158585-0-5 on ExchangeId: ID-6c4008c0f7fa-56863-1497286158585-0-6). Exhausted after delivery attempt: 1 caught: java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot be cast to java.lang.String
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://data/input?noop=true                                                   ] [         1]
+[route1            ] [process1          ] [Processor@0x55634720                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot be cast to java.lang.String
+	at com.learncamel.processor.CamelExampleProcessor.process(CamelExampleProcessor.java:13)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:542)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:460)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:227)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:191)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:175)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-06-12 11:49:21,243 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@5b5da08 for file: GenericFile[input.txt]
+2017-06-12 11:49:21,748 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-6c4008c0f7fa-56863-1497286158585-0-7 on ExchangeId: ID-6c4008c0f7fa-56863-1497286158585-0-8). Exhausted after delivery attempt: 1 caught: java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot be cast to java.lang.String
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://data/input?noop=true                                                   ] [         1]
+[route1            ] [process1          ] [Processor@0x55634720                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot be cast to java.lang.String
+	at com.learncamel.processor.CamelExampleProcessor.process(CamelExampleProcessor.java:13)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:542)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:460)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:227)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:191)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:175)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-06-12 11:49:21,749 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@5b5da08 for file: GenericFile[input.txt]
+2017-06-12 11:49:22,252 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-6c4008c0f7fa-56863-1497286158585-0-9 on ExchangeId: ID-6c4008c0f7fa-56863-1497286158585-0-10). Exhausted after delivery attempt: 1 caught: java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot be cast to java.lang.String
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://data/input?noop=true                                                   ] [         1]
+[route1            ] [process1          ] [Processor@0x55634720                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot be cast to java.lang.String
+	at com.learncamel.processor.CamelExampleProcessor.process(CamelExampleProcessor.java:13)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:542)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:460)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:227)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:191)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:175)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-06-12 11:49:22,253 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@5b5da08 for file: GenericFile[input.txt]
+2017-06-12 11:49:22,763 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-6c4008c0f7fa-56863-1497286158585-0-11 on ExchangeId: ID-6c4008c0f7fa-56863-1497286158585-0-12). Exhausted after delivery attempt: 1 caught: java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot be cast to java.lang.String
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://data/input?noop=true                                                   ] [         1]
+[route1            ] [process1          ] [Processor@0x55634720                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot be cast to java.lang.String
+	at com.learncamel.processor.CamelExampleProcessor.process(CamelExampleProcessor.java:13)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:542)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:460)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:227)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:191)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:175)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-06-12 11:49:22,764 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@5b5da08 for file: GenericFile[input.txt]
+2017-06-12 11:49:23,271 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-6c4008c0f7fa-56863-1497286158585-0-13 on ExchangeId: ID-6c4008c0f7fa-56863-1497286158585-0-14). Exhausted after delivery attempt: 1 caught: java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot be cast to java.lang.String
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://data/input?noop=true                                                   ] [         1]
+[route1            ] [process1          ] [Processor@0x55634720                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot be cast to java.lang.String
+	at com.learncamel.processor.CamelExampleProcessor.process(CamelExampleProcessor.java:13)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:542)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:460)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:227)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:191)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:175)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-06-12 11:49:23,272 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@5b5da08 for file: GenericFile[input.txt]
+2017-06-12 11:49:23,774 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-6c4008c0f7fa-56863-1497286158585-0-15 on ExchangeId: ID-6c4008c0f7fa-56863-1497286158585-0-16). Exhausted after delivery attempt: 1 caught: java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot be cast to java.lang.String
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://data/input?noop=true                                                   ] [         0]
+[route1            ] [process1          ] [Processor@0x55634720                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot be cast to java.lang.String
+	at com.learncamel.processor.CamelExampleProcessor.process(CamelExampleProcessor.java:13)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:542)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:460)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:227)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:191)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:175)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-06-12 11:49:23,775 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@5b5da08 for file: GenericFile[input.txt]
+2017-06-12 11:49:24,208 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 11:49:24,209 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:49:24,209 | INFO | CamelTestSupport.java 375 | Took: 5.004 seconds (5004 millis)
+2017-06-12 11:49:24,209 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 11:49:24,213 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 11:49:24,213 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 11:49:24,216 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 11:49:24,217 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 11:49:24,227 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.231 seconds
+2017-06-12 11:49:24,227 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.014 seconds
+2017-06-12 11:50:17,158 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 11:50:17,160 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:50:17,160 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 11:50:17,600 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 11:50:17,601 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 11:50:17,644 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 11:50:17,773 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 11:50:17,778 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://processorInput
+2017-06-12 11:50:17,778 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 11:50:17,782 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.179 seconds
+2017-06-12 11:50:22,785 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 11:50:22,786 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:50:22,786 | INFO | CamelTestSupport.java 375 | Took: 5.003 seconds (5003 millis)
+2017-06-12 11:50:22,786 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 11:50:22,788 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 11:50:22,789 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 11:50:22,794 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://processorInput
+2017-06-12 11:50:22,794 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 11:50:22,806 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.207 seconds
+2017-06-12 11:50:22,806 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.018 seconds
+2017-06-12 11:50:39,777 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 11:50:39,780 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:50:39,780 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 11:50:40,259 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 11:50:40,260 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 11:50:40,338 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 11:50:40,468 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 11:50:40,473 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://processorInput
+2017-06-12 11:50:40,473 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 11:50:40,476 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.215 seconds
+2017-06-12 11:50:40,487 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017 and Headers are {breadcrumbId=ID-6c4008c0f7fa-56885-1497286239829-0-1}
+2017-06-12 11:50:40,497 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 11:50:40,497 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:50:40,497 | INFO | CamelTestSupport.java 375 | Took: 0.021 seconds (21 millis)
+2017-06-12 11:50:40,497 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 11:50:40,508 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 11:50:40,510 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 11:50:40,516 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://processorInput
+2017-06-12 11:50:40,516 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 11:50:40,529 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.271 seconds
+2017-06-12 11:50:40,530 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.021 seconds
+2017-06-12 11:51:00,370 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 11:51:00,373 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:51:00,374 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 11:51:00,820 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 11:51:00,821 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 11:51:00,886 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 11:51:01,007 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 11:51:01,012 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://processorInput
+2017-06-12 11:51:01,012 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 11:51:01,015 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.192 seconds
+2017-06-12 11:51:01,026 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017 and Headers are {breadcrumbId=ID-6c4008c0f7fa-56890-1497286260415-0-1}
+2017-06-12 11:51:01,036 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 11:51:01,037 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:51:01,037 | INFO | CamelTestSupport.java 375 | Took: 0.020 seconds (20 millis)
+2017-06-12 11:51:01,037 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 11:51:01,043 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 11:51:01,045 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 11:51:01,049 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://processorInput
+2017-06-12 11:51:01,049 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 11:51:01,060 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.240 seconds
+2017-06-12 11:51:01,061 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.017 seconds
+2017-06-12 12:28:02,953 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 12:28:02,955 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:28:02,955 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 12:28:03,396 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 12:28:03,397 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 12:28:03,439 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 12:28:03,541 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 12:28:03,544 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://processorInput
+2017-06-12 12:28:03,545 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 12:28:03,547 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.149 seconds
+2017-06-12 12:28:03,548 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 12:28:03,548 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:28:03,548 | INFO | CamelTestSupport.java 375 | Took: 0.000 seconds (0 millis)
+2017-06-12 12:28:03,548 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 12:28:03,550 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 12:28:03,551 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 12:28:03,556 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://processorInput
+2017-06-12 12:28:03,556 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 12:28:03,572 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.176 seconds
+2017-06-12 12:28:03,572 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.022 seconds
+2017-06-12 12:28:43,340 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 12:28:43,342 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:28:43,342 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 12:29:03,352 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 12:29:03,354 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:29:03,354 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 12:29:03,810 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 12:29:03,811 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 12:29:03,863 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 12:29:03,988 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 12:29:03,992 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://processorInput
+2017-06-12 12:29:03,992 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 12:29:03,994 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.182 seconds
+2017-06-12 12:29:03,995 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 12:29:03,995 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:29:03,995 | INFO | CamelTestSupport.java 375 | Took: 0.000 seconds (0 millis)
+2017-06-12 12:29:03,995 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 12:29:03,997 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 12:29:03,998 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 12:29:04,002 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://processorInput
+2017-06-12 12:29:04,003 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 12:29:04,014 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.204 seconds
+2017-06-12 12:29:04,014 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.017 seconds
+2017-06-12 12:29:39,410 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 12:29:39,412 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:29:39,412 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 12:29:39,841 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 12:29:39,842 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 12:29:39,891 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 12:29:39,999 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 12:29:40,004 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://processorInput
+2017-06-12 12:29:40,004 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 12:29:40,008 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.164 seconds
+2017-06-12 12:29:45,010 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 12:29:45,011 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:29:45,011 | INFO | CamelTestSupport.java 375 | Took: 5.002 seconds (5002 millis)
+2017-06-12 12:29:45,011 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 12:29:45,015 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 12:29:45,015 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 12:29:45,021 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://processorInput
+2017-06-12 12:29:45,021 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 12:29:45,033 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.193 seconds
+2017-06-12 12:29:45,033 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.018 seconds
+2017-06-12 12:30:13,031 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 12:30:13,033 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:30:13,033 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 12:30:13,467 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 12:30:13,469 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 12:30:13,517 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 12:30:13,621 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 12:30:13,624 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 12:30:13,624 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 12:30:13,637 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/output?noop=true
+2017-06-12 12:30:13,637 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 12:30:13,640 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.170 seconds
+2017-06-12 12:30:13,640 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 12:30:13,640 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:30:13,640 | INFO | CamelTestSupport.java 375 | Took: 0.000 seconds (0 millis)
+2017-06-12 12:30:13,641 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 12:30:13,644 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 12:30:13,645 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 12:30:13,648 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/output?noop=true
+2017-06-12 12:30:13,648 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 12:30:13,665 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.198 seconds
+2017-06-12 12:30:13,665 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.021 seconds
+2017-06-12 12:30:29,157 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 12:30:29,159 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:30:29,159 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 12:30:29,598 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 12:30:29,599 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 12:30:29,644 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 12:30:29,752 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 12:30:29,756 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 12:30:29,756 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 12:30:29,768 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/output?noop=true
+2017-06-12 12:30:29,769 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 12:30:29,771 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.172 seconds
+2017-06-12 12:30:34,773 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 12:30:34,775 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:30:34,775 | INFO | CamelTestSupport.java 375 | Took: 5.001 seconds (5001 millis)
+2017-06-12 12:30:34,775 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 12:30:34,779 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 12:30:34,780 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 12:30:34,783 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/output?noop=true
+2017-06-12 12:30:34,783 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 12:30:34,795 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.197 seconds
+2017-06-12 12:30:34,795 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2017-06-12 12:31:01,682 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 12:31:01,684 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:31:01,684 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 12:31:02,118 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 12:31:02,120 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 12:31:02,162 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 12:31:02,269 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 12:31:02,271 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 12:31:02,272 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 12:31:02,284 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 12:31:02,284 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 12:31:02,287 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.166 seconds
+2017-06-12 12:31:03,303 | INFO | CamelLogger.java 159 | Received Message is 123,dilip,12JAN2017
+456,adam,12JAN2017 and Headers are {breadcrumbId=ID-6c4008c0f7fa-57329-1497288661725-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 12:31:07,288 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 12:31:07,289 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:31:07,290 | INFO | CamelTestSupport.java 375 | Took: 5.001 seconds (5001 millis)
+2017-06-12 12:31:07,291 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 12:31:07,294 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 12:31:07,295 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 12:31:07,298 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 12:31:07,298 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 12:31:07,308 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.190 seconds
+2017-06-12 12:31:07,308 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.014 seconds
+2017-06-12 12:33:48,287 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 12:33:48,290 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:33:48,290 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 12:33:48,726 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 12:33:48,727 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 12:33:48,770 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 12:33:48,871 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 12:33:48,874 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 12:33:48,875 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 12:33:48,887 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 12:33:48,888 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 12:33:48,890 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.161 seconds
+2017-06-12 12:33:48,891 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 12:33:48,891 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:33:48,891 | INFO | CamelTestSupport.java 375 | Took: 0.000 seconds (0 millis)
+2017-06-12 12:33:48,891 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 12:33:48,894 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 12:33:48,895 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 12:33:48,897 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 12:33:48,897 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 12:33:48,912 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.186 seconds
+2017-06-12 12:33:48,913 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.018 seconds
+2017-06-12 12:37:21,397 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 12:37:21,399 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:37:21,399 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 12:37:21,831 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 12:37:21,833 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 12:37:21,873 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 12:37:21,986 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 12:37:21,989 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 12:37:21,989 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 12:37:22,006 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 12:37:22,006 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 12:37:22,009 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.175 seconds
+2017-06-12 12:37:22,009 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 12:37:22,009 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:37:22,010 | INFO | CamelTestSupport.java 375 | Took: 0.000 seconds (0 millis)
+2017-06-12 12:37:22,010 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 12:37:22,013 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 12:37:22,014 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 12:37:22,018 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 12:37:22,018 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 12:37:22,032 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.201 seconds
+2017-06-12 12:37:22,032 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.019 seconds
+2017-06-12 12:38:46,764 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 12:38:46,767 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:38:46,767 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 12:38:47,215 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 12:38:47,217 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 12:38:47,268 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 12:38:47,378 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 12:38:47,382 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 12:38:47,383 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 12:38:47,397 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 12:38:47,397 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 12:38:47,400 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.182 seconds
+2017-06-12 12:38:48,416 | INFO | CamelLogger.java 159 | Received Message is 123,dilip,12JAN2017
+456,adam,12JAN2017 and Headers are {breadcrumbId=ID-6c4008c0f7fa-57421-1497289126821-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 12:38:52,402 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 12:38:52,403 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:38:52,403 | INFO | CamelTestSupport.java 375 | Took: 5.002 seconds (5002 millis)
+2017-06-12 12:38:52,405 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 12:38:52,408 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 12:38:52,408 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 12:38:52,411 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 12:38:52,411 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 12:38:52,421 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.206 seconds
+2017-06-12 12:38:52,422 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.013 seconds
+2017-06-12 12:40:29,834 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 12:40:29,836 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:40:29,836 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 12:40:30,279 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 12:40:30,280 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 12:40:30,331 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 12:40:30,452 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 12:40:30,456 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 12:40:30,456 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 12:40:30,470 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 12:40:30,471 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 12:40:30,475 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.193 seconds
+2017-06-12 12:40:31,493 | INFO | CamelLogger.java 159 | Received Message is 123,dilip,12JAN2017
+456,adam,12JAN2017 and Headers are {breadcrumbId=ID-6c4008c0f7fa-57429-1497289229873-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 12:40:35,479 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 12:40:35,479 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:40:35,480 | INFO | CamelTestSupport.java 375 | Took: 5.003 seconds (5003 millis)
+2017-06-12 12:40:35,481 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 12:40:35,484 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 12:40:35,485 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 12:40:35,490 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 12:40:35,490 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 12:40:35,505 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.227 seconds
+2017-06-12 12:40:35,505 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.021 seconds
+2017-06-12 12:44:01,406 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 12:44:01,409 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:44:01,409 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 12:44:01,821 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 12:44:01,822 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 12:44:01,868 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 12:44:01,983 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 12:44:01,987 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 12:44:01,987 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 12:44:02,002 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 12:44:02,003 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 12:44:02,006 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.183 seconds
+2017-06-12 12:44:03,024 | INFO | CamelLogger.java 159 | Received Message is 456:adam:12JAN2017 and Headers are {breadcrumbId=ID-6c4008c0f7fa-57451-1497289441454-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 12:44:07,010 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 12:44:07,011 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:44:07,012 | INFO | CamelTestSupport.java 375 | Took: 5.003 seconds (5003 millis)
+2017-06-12 12:44:07,014 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 12:44:07,017 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 12:44:07,018 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 12:44:07,021 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 12:44:07,022 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 12:44:07,034 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.214 seconds
+2017-06-12 12:44:07,035 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.017 seconds
+2017-06-12 12:49:59,201 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 12:49:59,203 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:49:59,204 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 12:49:59,622 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 12:49:59,623 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 12:49:59,669 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 12:49:59,791 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 12:49:59,794 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 12:49:59,794 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 12:49:59,804 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 12:49:59,804 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 12:49:59,807 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.182 seconds
+2017-06-12 12:50:00,825 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017456:adam:12JAN2017 and Headers are {breadcrumbId=ID-6c4008c0f7fa-57550-1497289799242-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 12:50:04,808 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 12:50:04,808 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:50:04,809 | INFO | CamelTestSupport.java 375 | Took: 5.000 seconds (5000 millis)
+2017-06-12 12:50:04,810 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 12:50:04,813 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 12:50:04,813 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 12:50:04,816 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 12:50:04,817 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 12:50:04,827 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.205 seconds
+2017-06-12 12:50:04,827 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.014 seconds
+2017-06-12 12:50:19,854 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 12:50:19,856 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:50:19,856 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 12:50:20,299 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 12:50:20,300 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 12:50:20,351 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 12:50:20,470 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 12:50:20,473 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 12:50:20,474 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 12:50:20,490 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 12:50:20,491 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 12:50:20,494 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.191 seconds
+2017-06-12 12:50:21,512 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017
+456:adam:12JAN2017
+ and Headers are {breadcrumbId=ID-6c4008c0f7fa-57556-1497289819893-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 12:50:25,496 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 12:50:25,497 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 12:50:25,497 | INFO | CamelTestSupport.java 375 | Took: 5.002 seconds (5002 millis)
+2017-06-12 12:50:25,498 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 12:50:25,500 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 12:50:25,501 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 12:50:25,504 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 12:50:25,504 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 12:50:25,515 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.216 seconds
+2017-06-12 12:50:25,516 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2017-06-12 13:36:23,137 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 13:36:23,141 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 13:36:23,141 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 13:36:23,573 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 13:36:23,574 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 13:36:23,622 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 13:36:23,748 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 13:36:23,751 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 13:36:23,751 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 13:36:23,764 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 13:36:23,764 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 13:36:23,767 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.191 seconds
+2017-06-12 13:36:24,787 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017
+456:adam:12JAN2017
+ and Headers are {breadcrumbId=ID-6c4008c0f7fa-58270-1497292583181-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 13:36:24,799 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-6c4008c0f7fa-58270-1497292583181-0-1 on ExchangeId: ID-6c4008c0f7fa-58270-1497292583181-0-2). Exhausted after delivery attempt: 1 caught: org.apache.camel.component.direct.DirectConsumerNotAvailableException: No consumers available on endpoint: direct://output. Exchange[ID-6c4008c0f7fa-58270-1497292583181-0-2]
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://data/input?noop=true                                                   ] [        17]
+[route1            ] [process1          ] [Processor@0x72e5a8e                                                           ] [         3]
+[route1            ] [log1              ] [log                                                                           ] [         1]
+[route1            ] [to1               ] [file:data/output?fileName=output.txt                                          ] [         9]
+[route1            ] [to2               ] [direct:output                                                                 ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.component.direct.DirectConsumerNotAvailableException: No consumers available on endpoint: direct://output. Exchange[ID-6c4008c0f7fa-58270-1497292583181-0-2]
+	at org.apache.camel.component.direct.DirectProducer.process(DirectProducer.java:55)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:542)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:460)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:227)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:191)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:175)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-06-12 13:36:24,801 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@15dd3f01 for file: GenericFile[input.txt]
+2017-06-12 13:36:25,311 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+ and Headers are {breadcrumbId=ID-6c4008c0f7fa-58270-1497292583181-0-3, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 13:36:25,316 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-6c4008c0f7fa-58270-1497292583181-0-3 on ExchangeId: ID-6c4008c0f7fa-58270-1497292583181-0-4). Exhausted after delivery attempt: 1 caught: org.apache.camel.component.direct.DirectConsumerNotAvailableException: No consumers available on endpoint: direct://output. Exchange[ID-6c4008c0f7fa-58270-1497292583181-0-4]
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://data/input?noop=true                                                   ] [         6]
+[route1            ] [process1          ] [Processor@0x72e5a8e                                                           ] [         1]
+[route1            ] [log1              ] [log                                                                           ] [         2]
+[route1            ] [to1               ] [file:data/output?fileName=output.txt                                          ] [         2]
+[route1            ] [to2               ] [direct:output                                                                 ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.component.direct.DirectConsumerNotAvailableException: No consumers available on endpoint: direct://output. Exchange[ID-6c4008c0f7fa-58270-1497292583181-0-4]
+	at org.apache.camel.component.direct.DirectProducer.process(DirectProducer.java:55)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:542)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:460)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:227)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:191)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:175)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-06-12 13:36:25,316 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@15dd3f01 for file: GenericFile[input.txt]
+2017-06-12 13:36:25,819 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+ and Headers are {breadcrumbId=ID-6c4008c0f7fa-58270-1497292583181-0-5, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 13:36:25,822 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-6c4008c0f7fa-58270-1497292583181-0-5 on ExchangeId: ID-6c4008c0f7fa-58270-1497292583181-0-6). Exhausted after delivery attempt: 1 caught: org.apache.camel.component.direct.DirectConsumerNotAvailableException: No consumers available on endpoint: direct://output. Exchange[ID-6c4008c0f7fa-58270-1497292583181-0-6]
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://data/input?noop=true                                                   ] [         4]
+[route1            ] [process1          ] [Processor@0x72e5a8e                                                           ] [         0]
+[route1            ] [log1              ] [log                                                                           ] [         1]
+[route1            ] [to1               ] [file:data/output?fileName=output.txt                                          ] [         1]
+[route1            ] [to2               ] [direct:output                                                                 ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.component.direct.DirectConsumerNotAvailableException: No consumers available on endpoint: direct://output. Exchange[ID-6c4008c0f7fa-58270-1497292583181-0-6]
+	at org.apache.camel.component.direct.DirectProducer.process(DirectProducer.java:55)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:542)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:460)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:227)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:191)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:175)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-06-12 13:36:25,823 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@15dd3f01 for file: GenericFile[input.txt]
+2017-06-12 13:36:26,329 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+ and Headers are {breadcrumbId=ID-6c4008c0f7fa-58270-1497292583181-0-7, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 13:36:26,333 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-6c4008c0f7fa-58270-1497292583181-0-7 on ExchangeId: ID-6c4008c0f7fa-58270-1497292583181-0-8). Exhausted after delivery attempt: 1 caught: org.apache.camel.component.direct.DirectConsumerNotAvailableException: No consumers available on endpoint: direct://output. Exchange[ID-6c4008c0f7fa-58270-1497292583181-0-8]
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://data/input?noop=true                                                   ] [         5]
+[route1            ] [process1          ] [Processor@0x72e5a8e                                                           ] [         1]
+[route1            ] [log1              ] [log                                                                           ] [         0]
+[route1            ] [to1               ] [file:data/output?fileName=output.txt                                          ] [         1]
+[route1            ] [to2               ] [direct:output                                                                 ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.component.direct.DirectConsumerNotAvailableException: No consumers available on endpoint: direct://output. Exchange[ID-6c4008c0f7fa-58270-1497292583181-0-8]
+	at org.apache.camel.component.direct.DirectProducer.process(DirectProducer.java:55)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:542)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:460)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:227)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:191)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:175)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-06-12 13:36:26,334 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@15dd3f01 for file: GenericFile[input.txt]
+2017-06-12 13:36:26,836 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+ and Headers are {breadcrumbId=ID-6c4008c0f7fa-58270-1497292583181-0-9, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 13:36:26,837 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-6c4008c0f7fa-58270-1497292583181-0-9 on ExchangeId: ID-6c4008c0f7fa-58270-1497292583181-0-10). Exhausted after delivery attempt: 1 caught: org.apache.camel.component.direct.DirectConsumerNotAvailableException: No consumers available on endpoint: direct://output. Exchange[ID-6c4008c0f7fa-58270-1497292583181-0-10]
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://data/input?noop=true                                                   ] [         2]
+[route1            ] [process1          ] [Processor@0x72e5a8e                                                           ] [         0]
+[route1            ] [log1              ] [log                                                                           ] [         1]
+[route1            ] [to1               ] [file:data/output?fileName=output.txt                                          ] [         1]
+[route1            ] [to2               ] [direct:output                                                                 ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.component.direct.DirectConsumerNotAvailableException: No consumers available on endpoint: direct://output. Exchange[ID-6c4008c0f7fa-58270-1497292583181-0-10]
+	at org.apache.camel.component.direct.DirectProducer.process(DirectProducer.java:55)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:542)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:460)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:227)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:191)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:175)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-06-12 13:36:26,838 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@15dd3f01 for file: GenericFile[input.txt]
+2017-06-12 13:36:27,348 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+ and Headers are {breadcrumbId=ID-6c4008c0f7fa-58270-1497292583181-0-11, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 13:36:27,350 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-6c4008c0f7fa-58270-1497292583181-0-11 on ExchangeId: ID-6c4008c0f7fa-58270-1497292583181-0-12). Exhausted after delivery attempt: 1 caught: org.apache.camel.component.direct.DirectConsumerNotAvailableException: No consumers available on endpoint: direct://output. Exchange[ID-6c4008c0f7fa-58270-1497292583181-0-12]
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://data/input?noop=true                                                   ] [         5]
+[route1            ] [process1          ] [Processor@0x72e5a8e                                                           ] [         1]
+[route1            ] [log1              ] [log                                                                           ] [         1]
+[route1            ] [to1               ] [file:data/output?fileName=output.txt                                          ] [         0]
+[route1            ] [to2               ] [direct:output                                                                 ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.component.direct.DirectConsumerNotAvailableException: No consumers available on endpoint: direct://output. Exchange[ID-6c4008c0f7fa-58270-1497292583181-0-12]
+	at org.apache.camel.component.direct.DirectProducer.process(DirectProducer.java:55)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:542)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:460)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:227)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:191)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:175)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-06-12 13:36:27,351 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@15dd3f01 for file: GenericFile[input.txt]
+2017-06-12 13:36:27,858 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+ and Headers are {breadcrumbId=ID-6c4008c0f7fa-58270-1497292583181-0-13, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 13:36:27,862 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-6c4008c0f7fa-58270-1497292583181-0-13 on ExchangeId: ID-6c4008c0f7fa-58270-1497292583181-0-14). Exhausted after delivery attempt: 1 caught: org.apache.camel.component.direct.DirectConsumerNotAvailableException: No consumers available on endpoint: direct://output. Exchange[ID-6c4008c0f7fa-58270-1497292583181-0-14]
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://data/input?noop=true                                                   ] [         5]
+[route1            ] [process1          ] [Processor@0x72e5a8e                                                           ] [         0]
+[route1            ] [log1              ] [log                                                                           ] [         2]
+[route1            ] [to1               ] [file:data/output?fileName=output.txt                                          ] [         2]
+[route1            ] [to2               ] [direct:output                                                                 ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.component.direct.DirectConsumerNotAvailableException: No consumers available on endpoint: direct://output. Exchange[ID-6c4008c0f7fa-58270-1497292583181-0-14]
+	at org.apache.camel.component.direct.DirectProducer.process(DirectProducer.java:55)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:542)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:460)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:227)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:191)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:175)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-06-12 13:36:27,863 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@15dd3f01 for file: GenericFile[input.txt]
+2017-06-12 13:36:28,367 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+ and Headers are {breadcrumbId=ID-6c4008c0f7fa-58270-1497292583181-0-15, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 13:36:28,370 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-6c4008c0f7fa-58270-1497292583181-0-15 on ExchangeId: ID-6c4008c0f7fa-58270-1497292583181-0-16). Exhausted after delivery attempt: 1 caught: org.apache.camel.component.direct.DirectConsumerNotAvailableException: No consumers available on endpoint: direct://output. Exchange[ID-6c4008c0f7fa-58270-1497292583181-0-16]
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://data/input?noop=true                                                   ] [         2]
+[route1            ] [process1          ] [Processor@0x72e5a8e                                                           ] [         0]
+[route1            ] [log1              ] [log                                                                           ] [         1]
+[route1            ] [to1               ] [file:data/output?fileName=output.txt                                          ] [         1]
+[route1            ] [to2               ] [direct:output                                                                 ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.component.direct.DirectConsumerNotAvailableException: No consumers available on endpoint: direct://output. Exchange[ID-6c4008c0f7fa-58270-1497292583181-0-16]
+	at org.apache.camel.component.direct.DirectProducer.process(DirectProducer.java:55)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:542)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:460)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:227)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:191)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:175)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-06-12 13:36:28,370 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@15dd3f01 for file: GenericFile[input.txt]
+2017-06-12 13:36:28,876 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+123:dilip:12JAN2017
+456:adam:12JAN2017
+ and Headers are {breadcrumbId=ID-6c4008c0f7fa-58270-1497292583181-0-17, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 13:36:30,882 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 13:36:30,883 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 13:36:30,883 | INFO | CamelTestSupport.java 375 | Took: 7.114 seconds (7114 millis)
+2017-06-12 13:36:30,883 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 13:36:30,888 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 13:36:30,889 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 13:36:30,892 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 13:36:30,893 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 13:36:30,902 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 7.329 seconds
+2017-06-12 13:36:30,902 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.014 seconds
+2017-06-12 13:38:39,533 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 13:38:39,535 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 13:38:39,535 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 13:38:39,962 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 13:38:39,963 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 13:38:40,008 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 13:38:40,121 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 13:38:40,124 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 13:38:40,124 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 13:38:40,137 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 13:38:40,138 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 13:38:40,141 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.177 seconds
+2017-06-12 13:38:41,158 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017
+456:adam:12JAN2017
+ and Headers are {breadcrumbId=ID-6c4008c0f7fa-58294-1497292719573-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 13:38:45,146 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 13:38:45,146 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 13:38:45,146 | INFO | CamelTestSupport.java 375 | Took: 5.004 seconds (5004 millis)
+2017-06-12 13:38:45,147 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 13:38:45,149 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 13:38:45,149 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 13:38:45,152 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 13:38:45,152 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 13:38:45,163 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.202 seconds
+2017-06-12 13:38:45,163 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.014 seconds
+2017-06-12 13:39:53,794 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 13:39:53,797 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 13:39:53,798 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 13:39:54,220 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 13:39:54,221 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 13:39:54,264 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 13:39:54,382 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 13:39:54,385 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 13:39:54,385 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 13:39:54,395 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 13:39:54,396 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 13:39:54,398 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.176 seconds
+2017-06-12 13:39:55,416 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017
+456:adam:12JAN2017
+ and Headers are {breadcrumbId=ID-6c4008c0f7fa-58305-1497292793837-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 13:39:59,401 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 13:39:59,401 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 13:39:59,402 | INFO | CamelTestSupport.java 375 | Took: 5.003 seconds (5003 millis)
+2017-06-12 13:39:59,403 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 13:39:59,406 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 13:39:59,407 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 13:39:59,410 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 13:39:59,410 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 13:39:59,420 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.200 seconds
+2017-06-12 13:39:59,420 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.014 seconds
+2017-06-12 13:41:52,869 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 13:41:52,871 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 13:41:52,871 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 13:41:53,307 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 13:41:53,309 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 13:41:53,353 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 13:41:53,469 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 13:41:53,473 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 13:41:53,473 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 13:41:53,488 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 13:41:53,488 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 13:41:53,491 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.181 seconds
+2017-06-12 13:41:54,503 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017
+456:adam:12JAN2017
+ and Headers are {breadcrumbId=ID-6c4008c0f7fa-58320-1497292912908-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 13:41:58,496 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 13:41:58,496 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 13:41:58,496 | INFO | CamelTestSupport.java 375 | Took: 5.004 seconds (5004 millis)
+2017-06-12 13:41:58,497 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 13:41:58,499 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 13:41:58,500 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 13:41:58,502 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 13:41:58,503 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 13:41:58,513 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.205 seconds
+2017-06-12 13:41:58,513 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.013 seconds
+2017-06-12 13:43:03,595 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 13:43:03,597 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 13:43:03,598 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 13:43:04,022 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 13:43:04,024 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 13:43:04,069 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 13:43:04,183 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 13:43:04,187 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 13:43:04,188 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 13:43:04,203 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 13:43:04,203 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 13:43:04,208 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.181 seconds
+2017-06-12 13:43:05,215 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017
+456:adam:12JAN2017
+ and Headers are {breadcrumbId=ID-6c4008c0f7fa-58338-1497292983634-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 13:43:09,210 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 13:43:09,210 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 13:43:09,211 | INFO | CamelTestSupport.java 375 | Took: 5.001 seconds (5001 millis)
+2017-06-12 13:43:09,212 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 13:43:09,215 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 13:43:09,216 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 13:43:09,219 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 13:43:09,220 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 13:43:09,230 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.208 seconds
+2017-06-12 13:43:09,231 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2017-06-12 13:44:31,193 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 13:44:31,195 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 13:44:31,195 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 13:44:31,624 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 13:44:31,625 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 13:44:31,666 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 13:44:31,790 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 13:44:31,794 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 13:44:31,794 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 13:44:31,808 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 13:44:31,809 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 13:44:31,812 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.186 seconds
+2017-06-12 13:44:32,827 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017
+456:adam:12JAN2017
+ and Headers are {breadcrumbId=ID-6c4008c0f7fa-58354-1497293071232-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 13:44:36,818 | INFO | MockEndpoint.java 385 | Asserting: mock://output is satisfied
+2017-06-12 13:44:36,819 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 13:44:36,819 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 13:44:36,821 | INFO | CamelTestSupport.java 375 | Took: 5.006 seconds (5006 millis)
+2017-06-12 13:44:36,821 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 13:44:36,824 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 13:44:36,824 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 13:44:36,827 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 13:44:36,828 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 13:44:36,838 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.215 seconds
+2017-06-12 13:44:36,838 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2017-06-12 13:45:15,740 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 13:45:15,743 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 13:45:15,743 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 13:45:16,152 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 13:45:16,153 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 13:45:16,198 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 13:45:16,326 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 13:45:16,329 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 13:45:16,330 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 13:45:16,343 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 13:45:16,344 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 13:45:16,347 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.192 seconds
+2017-06-12 13:45:17,361 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017
+456:adam:12JAN2017
+ and Headers are {breadcrumbId=ID-6c4008c0f7fa-58373-1497293115783-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 13:45:21,352 | INFO | MockEndpoint.java 385 | Asserting: mock://output is satisfied
+2017-06-12 13:45:21,353 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 13:45:21,354 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 13:45:21,357 | INFO | CamelTestSupport.java 375 | Took: 5.005 seconds (5005 millis)
+2017-06-12 13:45:21,357 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 13:45:21,360 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 13:45:21,361 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 13:45:21,363 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 13:45:21,364 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 13:45:21,373 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.221 seconds
+2017-06-12 13:45:21,373 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.013 seconds
+2017-06-12 13:45:40,660 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 13:45:40,662 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 13:45:40,662 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 13:45:41,096 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 13:45:41,097 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 13:45:41,147 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 13:45:41,271 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 13:45:41,274 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 13:45:41,275 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 13:45:41,299 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 13:45:41,300 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 13:45:41,304 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.204 seconds
+2017-06-12 13:45:49,578 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 13:45:49,580 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 13:45:49,580 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 13:45:50,028 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 13:45:50,030 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 13:45:50,077 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 13:45:50,203 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 13:45:50,207 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 13:45:50,208 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 13:45:50,223 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 13:45:50,224 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 13:45:50,227 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.196 seconds
+2017-06-12 13:45:51,244 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017
+456:adam:12JAN2017
+ and Headers are {breadcrumbId=ID-6c4008c0f7fa-58387-1497293149623-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 13:45:55,232 | INFO | MockEndpoint.java 385 | Asserting: mock://output is satisfied
+2017-06-12 13:45:55,232 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 13:45:55,233 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 13:45:55,234 | INFO | CamelTestSupport.java 375 | Took: 5.004 seconds (5004 millis)
+2017-06-12 13:45:55,235 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 13:45:55,237 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 13:45:55,238 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 13:45:55,241 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 13:45:55,241 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 13:45:55,251 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.223 seconds
+2017-06-12 13:45:55,251 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.014 seconds
+2017-06-12 13:46:25,703 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 13:46:25,705 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 13:46:25,706 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 13:46:26,142 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 13:46:26,143 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 13:46:26,188 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 13:46:26,303 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 13:46:26,307 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 13:46:26,308 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 13:46:26,321 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 13:46:26,322 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 13:46:26,325 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.181 seconds
+2017-06-12 13:46:27,340 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017
+456:adam:12JAN2017
+ and Headers are {breadcrumbId=ID-6c4008c0f7fa-58394-1497293185746-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 13:46:31,332 | INFO | MockEndpoint.java 385 | Asserting: mock://output is satisfied
+2017-06-12 13:46:31,334 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 13:46:31,334 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 13:46:31,336 | INFO | CamelTestSupport.java 375 | Took: 5.008 seconds (5008 millis)
+2017-06-12 13:46:31,336 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 13:46:31,338 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 13:46:31,339 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 13:46:31,342 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 13:46:31,342 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 13:46:31,352 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.211 seconds
+2017-06-12 13:46:31,352 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.014 seconds
