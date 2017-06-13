@@ -1,5 +1,6 @@
 package com.learncamel.route;
 
+import com.learncamel.route.direct.CamelModifyDirectProcessorRoute;
 import org.apache.camel.RoutesBuilder;
 import org.apache.camel.component.mock.MockEndpoint;
 import org.apache.camel.test.junit4.CamelTestSupport;
@@ -18,7 +19,7 @@ public class CamelModifyDirectProcessorRouteTest extends CamelTestSupport {
     }
 
     /**
-     * This test case will check the number of files in the directory.
+     * This test case will check the content using requestBody() method.
      */
     @Test
     public void processorTest() {
@@ -32,7 +33,9 @@ public class CamelModifyDirectProcessorRouteTest extends CamelTestSupport {
 
     }
 
-
+    /**
+     * This test case will check the content using Mock() method.
+     */
     @Test
     public void processorTestUsingMock() throws InterruptedException {
 

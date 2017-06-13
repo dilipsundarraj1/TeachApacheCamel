@@ -1522,3 +1522,107 @@ org.apache.camel.component.direct.DirectConsumerNotAvailableException: No consum
 2017-06-12 21:20:02,337 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
 2017-06-12 21:20:02,338 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-2) uptime 0.030 seconds
 2017-06-12 21:20:02,338 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-2) is shutdown in 0.002 seconds
+2017-06-13 07:59:02,550 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-13 07:59:02,552 | INFO | CamelTestSupport.java 228 | Testing: transformTest(com.learncamel.route.transform.CamelModifyTransformRouteTest)
+2017-06-13 07:59:02,553 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-13 07:59:03,115 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-13 07:59:03,117 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-13 07:59:03,187 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-13 07:59:03,262 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-13 07:59:03,267 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://transformInput
+2017-06-13 07:59:03,267 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-13 07:59:03,270 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.152 seconds
+2017-06-13 07:59:03,298 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-13 07:59:03,298 | INFO | CamelTestSupport.java 374 | Testing done: transformTest(com.learncamel.route.transform.CamelModifyTransformRouteTest)
+2017-06-13 07:59:03,299 | INFO | CamelTestSupport.java 375 | Took: 0.027 seconds (27 millis)
+2017-06-13 07:59:03,299 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-13 07:59:03,305 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-13 07:59:03,305 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-13 07:59:03,310 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://transformInput
+2017-06-13 07:59:03,310 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-13 07:59:03,321 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.206 seconds
+2017-06-13 07:59:03,322 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.016 seconds
+2017-06-13 08:00:31,238 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-13 08:00:31,240 | INFO | CamelTestSupport.java 228 | Testing: transformTest_Uisng_Mock(com.learncamel.route.transform.CamelModifyTransformRouteTest)
+2017-06-13 08:00:31,240 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-13 08:00:31,671 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-13 08:00:31,673 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-13 08:00:31,729 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-13 08:00:31,829 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-13 08:00:31,834 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://transformInput
+2017-06-13 08:00:31,835 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-13 08:00:31,838 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.164 seconds
+2017-06-13 08:00:31,859 | INFO | MockEndpoint.java 385 | Asserting: mock://transformOutput is satisfied
+2017-06-13 08:00:31,860 | INFO | MockEndpoint.java 385 | Asserting: mock://output is satisfied
+2017-06-13 08:00:41,864 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-13 08:00:41,865 | INFO | CamelTestSupport.java 374 | Testing done: transformTest_Uisng_Mock(com.learncamel.route.transform.CamelModifyTransformRouteTest)
+2017-06-13 08:00:41,867 | INFO | CamelTestSupport.java 375 | Took: 10.025 seconds (10025 millis)
+2017-06-13 08:00:41,867 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-13 08:00:41,874 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-13 08:00:41,875 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-13 08:00:41,879 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://transformInput
+2017-06-13 08:00:41,879 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-13 08:00:41,889 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 10.218 seconds
+2017-06-13 08:00:41,889 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2017-06-13 08:00:58,465 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-13 08:00:58,467 | INFO | CamelTestSupport.java 228 | Testing: transformTest_Uisng_Mock(com.learncamel.route.transform.CamelModifyTransformRouteTest)
+2017-06-13 08:00:58,468 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-13 08:00:58,920 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-13 08:00:58,921 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-13 08:00:58,969 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-13 08:00:59,066 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-13 08:00:59,071 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://transformInput
+2017-06-13 08:00:59,071 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-13 08:00:59,074 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.152 seconds
+2017-06-13 08:00:59,104 | INFO | MockEndpoint.java 385 | Asserting: mock://transformOutput is satisfied
+2017-06-13 08:00:59,105 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-13 08:00:59,105 | INFO | CamelTestSupport.java 374 | Testing done: transformTest_Uisng_Mock(com.learncamel.route.transform.CamelModifyTransformRouteTest)
+2017-06-13 08:00:59,108 | INFO | CamelTestSupport.java 375 | Took: 0.031 seconds (31 millis)
+2017-06-13 08:00:59,108 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-13 08:00:59,118 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-13 08:00:59,119 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-13 08:00:59,124 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://transformInput
+2017-06-13 08:00:59,125 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-13 08:00:59,137 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.218 seconds
+2017-06-13 08:00:59,137 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.019 seconds
+2017-06-13 08:01:16,822 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-13 08:01:16,824 | INFO | CamelTestSupport.java 228 | Testing: transformTest(com.learncamel.route.transform.CamelModifyTransformRouteTest)
+2017-06-13 08:01:16,824 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-13 08:01:17,282 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-13 08:01:17,284 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-13 08:01:17,332 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-13 08:01:17,434 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-13 08:01:17,440 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://transformInput
+2017-06-13 08:01:17,441 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-13 08:01:17,444 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.159 seconds
+2017-06-13 08:01:17,485 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-13 08:01:17,485 | INFO | CamelTestSupport.java 374 | Testing done: transformTest(com.learncamel.route.transform.CamelModifyTransformRouteTest)
+2017-06-13 08:01:17,485 | INFO | CamelTestSupport.java 375 | Took: 0.040 seconds (40 millis)
+2017-06-13 08:01:17,485 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-13 08:01:17,494 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-13 08:01:17,495 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-13 08:01:17,505 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://transformInput
+2017-06-13 08:01:17,505 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-13 08:01:17,523 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.241 seconds
+2017-06-13 08:01:17,523 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.029 seconds
+2017-06-13 08:01:17,524 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-13 08:01:17,524 | INFO | CamelTestSupport.java 228 | Testing: transformTest_Uisng_Mock(com.learncamel.route.transform.CamelModifyTransformRouteTest)
+2017-06-13 08:01:17,524 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-13 08:01:17,527 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-2) is starting
+2017-06-13 08:01:17,528 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-13 08:01:17,533 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-13 08:01:17,544 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-13 08:01:17,545 | INFO | DefaultCamelContext.java 3693 | Route: route2 started and consuming from: direct://transformInput
+2017-06-13 08:01:17,545 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-13 08:01:17,546 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-2) started in 0.018 seconds
+2017-06-13 08:01:17,549 | INFO | MockEndpoint.java 385 | Asserting: mock://output is satisfied
+2017-06-13 08:01:17,550 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-13 08:01:17,550 | INFO | CamelTestSupport.java 374 | Testing done: transformTest_Uisng_Mock(com.learncamel.route.transform.CamelModifyTransformRouteTest)
+2017-06-13 08:01:17,550 | INFO | CamelTestSupport.java 375 | Took: 0.004 seconds (4 millis)
+2017-06-13 08:01:17,550 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-13 08:01:17,551 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-2) is shutting down
+2017-06-13 08:01:17,551 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-13 08:01:17,551 | INFO | DefaultShutdownStrategy.java 669 | Route: route2 shutdown complete, was consuming from: direct://transformInput
+2017-06-13 08:01:17,551 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-13 08:01:17,553 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-2) uptime 0.026 seconds
+2017-06-13 08:01:17,553 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-2) is shutdown in 0.002 seconds
