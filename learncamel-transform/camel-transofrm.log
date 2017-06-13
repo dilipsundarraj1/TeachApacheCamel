@@ -1,5 +1,5 @@
 2017-06-12 11:45:41,485 | INFO | CamelTestSupport.java 227 | ********************************************************************************
-2017-06-12 11:45:41,488 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:45:41,488 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
 2017-06-12 11:45:41,488 | INFO | CamelTestSupport.java 229 | ********************************************************************************
 2017-06-12 11:45:42,088 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
 2017-06-12 11:45:42,090 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
@@ -11,7 +11,7 @@
 2017-06-12 11:45:42,300 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
 2017-06-12 11:45:42,306 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.212 seconds
 2017-06-12 11:45:42,308 | INFO | CamelTestSupport.java 373 | ********************************************************************************
-2017-06-12 11:45:42,309 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:45:42,309 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
 2017-06-12 11:45:42,309 | INFO | CamelTestSupport.java 375 | Took: 0.002 seconds (2 millis)
 2017-06-12 11:45:42,309 | INFO | CamelTestSupport.java 402 | ********************************************************************************
 2017-06-12 11:45:42,318 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
@@ -21,7 +21,7 @@
 2017-06-12 11:45:42,342 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.254 seconds
 2017-06-12 11:45:42,342 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.024 seconds
 2017-06-12 11:46:00,216 | INFO | CamelTestSupport.java 227 | ********************************************************************************
-2017-06-12 11:46:00,218 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:46:00,218 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
 2017-06-12 11:46:00,219 | INFO | CamelTestSupport.java 229 | ********************************************************************************
 2017-06-12 11:46:00,653 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
 2017-06-12 11:46:00,654 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
@@ -33,7 +33,7 @@
 2017-06-12 11:46:00,839 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
 2017-06-12 11:46:00,842 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.187 seconds
 2017-06-12 11:46:00,843 | INFO | CamelTestSupport.java 373 | ********************************************************************************
-2017-06-12 11:46:00,843 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:46:00,843 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
 2017-06-12 11:46:00,844 | INFO | CamelTestSupport.java 375 | Took: 0.000 seconds (0 millis)
 2017-06-12 11:46:00,844 | INFO | CamelTestSupport.java 402 | ********************************************************************************
 2017-06-12 11:46:00,849 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
@@ -43,7 +43,7 @@
 2017-06-12 11:46:00,869 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.217 seconds
 2017-06-12 11:46:00,869 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.020 seconds
 2017-06-12 11:46:16,900 | INFO | CamelTestSupport.java 227 | ********************************************************************************
-2017-06-12 11:46:16,902 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:46:16,902 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
 2017-06-12 11:46:16,902 | INFO | CamelTestSupport.java 229 | ********************************************************************************
 2017-06-12 11:46:17,360 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
 2017-06-12 11:46:17,361 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
@@ -55,7 +55,7 @@
 2017-06-12 11:46:17,547 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
 2017-06-12 11:46:17,552 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.188 seconds
 2017-06-12 11:46:17,553 | INFO | CamelTestSupport.java 373 | ********************************************************************************
-2017-06-12 11:46:17,553 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:46:17,553 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
 2017-06-12 11:46:17,554 | INFO | CamelTestSupport.java 375 | Took: 0.000 seconds (0 millis)
 2017-06-12 11:46:17,554 | INFO | CamelTestSupport.java 402 | ********************************************************************************
 2017-06-12 11:46:17,558 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
@@ -65,7 +65,7 @@
 2017-06-12 11:46:17,578 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.219 seconds
 2017-06-12 11:46:17,579 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.020 seconds
 2017-06-12 11:46:39,252 | INFO | CamelTestSupport.java 227 | ********************************************************************************
-2017-06-12 11:46:39,256 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:46:39,256 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
 2017-06-12 11:46:39,256 | INFO | CamelTestSupport.java 229 | ********************************************************************************
 2017-06-12 11:46:39,690 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
 2017-06-12 11:46:39,691 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
@@ -77,7 +77,7 @@
 2017-06-12 11:46:39,886 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
 2017-06-12 11:46:39,889 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.197 seconds
 2017-06-12 11:46:39,890 | INFO | CamelTestSupport.java 373 | ********************************************************************************
-2017-06-12 11:46:39,891 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:46:39,891 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
 2017-06-12 11:46:39,891 | INFO | CamelTestSupport.java 375 | Took: 0.000 seconds (0 millis)
 2017-06-12 11:46:39,891 | INFO | CamelTestSupport.java 402 | ********************************************************************************
 2017-06-12 11:46:39,895 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
@@ -87,7 +87,7 @@
 2017-06-12 11:46:39,918 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.229 seconds
 2017-06-12 11:46:39,918 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.023 seconds
 2017-06-12 11:47:19,205 | INFO | CamelTestSupport.java 227 | ********************************************************************************
-2017-06-12 11:47:19,207 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:47:19,207 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
 2017-06-12 11:47:19,207 | INFO | CamelTestSupport.java 229 | ********************************************************************************
 2017-06-12 11:47:19,647 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
 2017-06-12 11:47:19,648 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
@@ -99,7 +99,7 @@
 2017-06-12 11:47:19,856 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
 2017-06-12 11:47:19,861 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.209 seconds
 2017-06-12 11:47:19,862 | INFO | CamelTestSupport.java 373 | ********************************************************************************
-2017-06-12 11:47:19,862 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:47:19,862 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
 2017-06-12 11:47:19,863 | INFO | CamelTestSupport.java 375 | Took: 0.000 seconds (0 millis)
 2017-06-12 11:47:19,863 | INFO | CamelTestSupport.java 402 | ********************************************************************************
 2017-06-12 11:47:19,867 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
@@ -109,7 +109,7 @@
 2017-06-12 11:47:19,884 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.237 seconds
 2017-06-12 11:47:19,884 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.017 seconds
 2017-06-12 11:48:54,962 | INFO | CamelTestSupport.java 227 | ********************************************************************************
-2017-06-12 11:48:54,964 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:48:54,964 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
 2017-06-12 11:48:54,965 | INFO | CamelTestSupport.java 229 | ********************************************************************************
 2017-06-12 11:48:55,401 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
 2017-06-12 11:48:55,401 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
@@ -121,7 +121,7 @@
 2017-06-12 11:48:55,598 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
 2017-06-12 11:48:55,602 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.198 seconds
 2017-06-12 11:48:55,603 | INFO | CamelTestSupport.java 373 | ********************************************************************************
-2017-06-12 11:48:55,604 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:48:55,604 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
 2017-06-12 11:48:55,604 | INFO | CamelTestSupport.java 375 | Took: 0.000 seconds (0 millis)
 2017-06-12 11:48:55,604 | INFO | CamelTestSupport.java 402 | ********************************************************************************
 2017-06-12 11:48:55,611 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
@@ -131,7 +131,7 @@
 2017-06-12 11:48:55,638 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.237 seconds
 2017-06-12 11:48:55,638 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.026 seconds
 2017-06-12 11:49:18,544 | INFO | CamelTestSupport.java 227 | ********************************************************************************
-2017-06-12 11:49:18,546 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:49:18,546 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
 2017-06-12 11:49:18,546 | INFO | CamelTestSupport.java 229 | ********************************************************************************
 2017-06-12 11:49:18,997 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
 2017-06-12 11:49:18,998 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
@@ -391,7 +391,7 @@ java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot
 	at java.lang.Thread.run(Thread.java:748)
 2017-06-12 11:49:23,775 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@5b5da08 for file: GenericFile[input.txt]
 2017-06-12 11:49:24,208 | INFO | CamelTestSupport.java 373 | ********************************************************************************
-2017-06-12 11:49:24,209 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:49:24,209 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
 2017-06-12 11:49:24,209 | INFO | CamelTestSupport.java 375 | Took: 5.004 seconds (5004 millis)
 2017-06-12 11:49:24,209 | INFO | CamelTestSupport.java 402 | ********************************************************************************
 2017-06-12 11:49:24,213 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
@@ -401,7 +401,7 @@ java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot
 2017-06-12 11:49:24,227 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.231 seconds
 2017-06-12 11:49:24,227 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.014 seconds
 2017-06-12 11:50:17,158 | INFO | CamelTestSupport.java 227 | ********************************************************************************
-2017-06-12 11:50:17,160 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:50:17,160 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
 2017-06-12 11:50:17,160 | INFO | CamelTestSupport.java 229 | ********************************************************************************
 2017-06-12 11:50:17,600 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
 2017-06-12 11:50:17,601 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
@@ -411,7 +411,7 @@ java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot
 2017-06-12 11:50:17,778 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
 2017-06-12 11:50:17,782 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.179 seconds
 2017-06-12 11:50:22,785 | INFO | CamelTestSupport.java 373 | ********************************************************************************
-2017-06-12 11:50:22,786 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:50:22,786 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
 2017-06-12 11:50:22,786 | INFO | CamelTestSupport.java 375 | Took: 5.003 seconds (5003 millis)
 2017-06-12 11:50:22,786 | INFO | CamelTestSupport.java 402 | ********************************************************************************
 2017-06-12 11:50:22,788 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
@@ -421,7 +421,7 @@ java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot
 2017-06-12 11:50:22,806 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.207 seconds
 2017-06-12 11:50:22,806 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.018 seconds
 2017-06-12 11:50:39,777 | INFO | CamelTestSupport.java 227 | ********************************************************************************
-2017-06-12 11:50:39,780 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:50:39,780 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
 2017-06-12 11:50:39,780 | INFO | CamelTestSupport.java 229 | ********************************************************************************
 2017-06-12 11:50:40,259 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
 2017-06-12 11:50:40,260 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
@@ -432,7 +432,7 @@ java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot
 2017-06-12 11:50:40,476 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.215 seconds
 2017-06-12 11:50:40,487 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017 and Headers are {breadcrumbId=ID-6c4008c0f7fa-56885-1497286239829-0-1}
 2017-06-12 11:50:40,497 | INFO | CamelTestSupport.java 373 | ********************************************************************************
-2017-06-12 11:50:40,497 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:50:40,497 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
 2017-06-12 11:50:40,497 | INFO | CamelTestSupport.java 375 | Took: 0.021 seconds (21 millis)
 2017-06-12 11:50:40,497 | INFO | CamelTestSupport.java 402 | ********************************************************************************
 2017-06-12 11:50:40,508 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
@@ -442,7 +442,7 @@ java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot
 2017-06-12 11:50:40,529 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.271 seconds
 2017-06-12 11:50:40,530 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.021 seconds
 2017-06-12 11:51:00,370 | INFO | CamelTestSupport.java 227 | ********************************************************************************
-2017-06-12 11:51:00,373 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:51:00,373 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
 2017-06-12 11:51:00,374 | INFO | CamelTestSupport.java 229 | ********************************************************************************
 2017-06-12 11:51:00,820 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
 2017-06-12 11:51:00,821 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
@@ -453,7 +453,7 @@ java.lang.ClassCastException: org.apache.camel.component.file.GenericFile cannot
 2017-06-12 11:51:01,015 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.192 seconds
 2017-06-12 11:51:01,026 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017 and Headers are {breadcrumbId=ID-6c4008c0f7fa-56890-1497286260415-0-1}
 2017-06-12 11:51:01,036 | INFO | CamelTestSupport.java 373 | ********************************************************************************
-2017-06-12 11:51:01,037 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyProcessorRouteTest)
+2017-06-12 11:51:01,037 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
 2017-06-12 11:51:01,037 | INFO | CamelTestSupport.java 375 | Took: 0.020 seconds (20 millis)
 2017-06-12 11:51:01,037 | INFO | CamelTestSupport.java 402 | ********************************************************************************
 2017-06-12 11:51:01,043 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
@@ -1365,3 +1365,160 @@ org.apache.camel.component.direct.DirectConsumerNotAvailableException: No consum
 2017-06-12 13:46:31,342 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
 2017-06-12 13:46:31,352 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.211 seconds
 2017-06-12 13:46:31,352 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.014 seconds
+2017-06-12 21:07:05,647 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 21:07:05,649 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
+2017-06-12 21:07:05,649 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 21:08:06,862 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 21:08:06,864 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 21:08:06,864 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 21:08:19,938 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 21:08:19,941 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
+2017-06-12 21:08:19,941 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 21:09:13,871 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 21:09:13,873 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
+2017-06-12 21:09:13,873 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 21:10:14,853 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 21:10:14,855 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
+2017-06-12 21:10:14,855 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 21:13:20,579 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 21:13:20,583 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
+2017-06-12 21:13:20,583 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 21:14:14,750 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 21:14:14,752 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
+2017-06-12 21:14:14,752 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 21:14:44,257 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 21:14:44,259 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 21:14:44,259 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 21:16:45,774 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 21:16:45,779 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 21:16:45,779 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 21:16:47,124 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 21:16:47,125 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 21:16:47,174 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 21:16:47,285 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 21:16:47,288 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-06-12 21:16:47,288 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-06-12 21:16:47,299 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: file://data/input?noop=true
+2017-06-12 21:16:47,300 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 21:16:47,302 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.177 seconds
+2017-06-12 21:16:48,317 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017
+456:adam:12JAN2017
+ and Headers are {breadcrumbId=ID-6c4008c0f7fa-59976-1497320206687-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/codebase/learncamel-transform/data/input/input.txt, CamelFileLastModified=1497285760000, CamelFileLength=38, CamelFileName=input.txt, CamelFileNameConsumed=input.txt, CamelFileNameOnly=input.txt, CamelFileParent=data/input, CamelFilePath=data/input/input.txt, CamelFileRelativePath=input.txt}
+2017-06-12 21:16:52,305 | INFO | MockEndpoint.java 385 | Asserting: mock://output is satisfied
+2017-06-12 21:16:52,306 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 21:16:52,306 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyFileProcessorRouteTest)
+2017-06-12 21:16:52,308 | INFO | CamelTestSupport.java 375 | Took: 5.003 seconds (5003 millis)
+2017-06-12 21:16:52,308 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 21:16:52,311 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 21:16:52,311 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 21:16:52,315 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2017-06-12 21:16:52,316 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 21:16:52,335 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 5.212 seconds
+2017-06-12 21:16:52,335 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.024 seconds
+2017-06-12 21:18:26,249 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 21:18:26,251 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
+2017-06-12 21:18:26,251 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 21:18:26,669 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 21:18:26,669 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 21:18:26,716 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 21:18:26,804 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 21:18:26,810 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://processorInput
+2017-06-12 21:18:26,811 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 21:18:26,815 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.143 seconds
+2017-06-12 21:18:26,831 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017 and Headers are {breadcrumbId=ID-6c4008c0f7fa-60098-1497320306289-0-1}
+2017-06-12 21:18:26,832 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 21:18:26,833 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
+2017-06-12 21:18:26,833 | INFO | CamelTestSupport.java 375 | Took: 0.017 seconds (17 millis)
+2017-06-12 21:18:26,833 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 21:18:26,840 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 21:18:26,841 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 21:18:26,846 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://processorInput
+2017-06-12 21:18:26,846 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 21:18:26,858 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.190 seconds
+2017-06-12 21:18:26,858 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.018 seconds
+2017-06-12 21:18:41,890 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 21:18:41,893 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
+2017-06-12 21:18:41,893 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 21:18:42,327 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 21:18:42,329 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 21:18:42,375 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 21:18:42,472 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 21:18:42,476 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://processorInput
+2017-06-12 21:18:42,476 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 21:18:42,480 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.149 seconds
+2017-06-12 21:18:42,496 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017 and Headers are {breadcrumbId=ID-6c4008c0f7fa-60103-1497320321932-0-1}
+2017-06-12 21:18:42,497 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 21:18:42,497 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
+2017-06-12 21:18:42,497 | INFO | CamelTestSupport.java 375 | Took: 0.015 seconds (15 millis)
+2017-06-12 21:18:42,497 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 21:18:42,505 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 21:18:42,506 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 21:18:42,510 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://processorInput
+2017-06-12 21:18:42,510 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 21:18:42,522 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.195 seconds
+2017-06-12 21:18:42,522 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.017 seconds
+2017-06-12 21:19:55,540 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 21:19:55,542 | INFO | CamelTestSupport.java 228 | Testing: processorTestUsingMock(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
+2017-06-12 21:19:55,542 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 21:19:55,974 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 21:19:55,975 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 21:19:56,019 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 21:19:56,126 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 21:19:56,131 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://processorInput
+2017-06-12 21:19:56,132 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 21:19:56,135 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.159 seconds
+2017-06-12 21:19:56,150 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017 and Headers are {breadcrumbId=ID-6c4008c0f7fa-60130-1497320395582-0-1}
+2017-06-12 21:19:56,151 | INFO | MockEndpoint.java 385 | Asserting: mock://output is satisfied
+2017-06-12 21:19:56,151 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 21:19:56,151 | INFO | CamelTestSupport.java 374 | Testing done: processorTestUsingMock(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
+2017-06-12 21:19:56,152 | INFO | CamelTestSupport.java 375 | Took: 0.015 seconds (15 millis)
+2017-06-12 21:19:56,152 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 21:19:56,159 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 21:19:56,159 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 21:19:56,163 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://processorInput
+2017-06-12 21:19:56,163 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 21:19:56,176 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.203 seconds
+2017-06-12 21:19:56,176 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.017 seconds
+2017-06-12 21:20:01,635 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 21:20:01,637 | INFO | CamelTestSupport.java 228 | Testing: processorTestUsingMock(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
+2017-06-12 21:20:01,637 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 21:20:02,071 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-12 21:20:02,072 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 21:20:02,119 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 21:20:02,229 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 21:20:02,235 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://processorInput
+2017-06-12 21:20:02,236 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 21:20:02,240 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.165 seconds
+2017-06-12 21:20:02,259 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017 and Headers are {breadcrumbId=ID-6c4008c0f7fa-60134-1497320401681-0-1}
+2017-06-12 21:20:02,260 | INFO | MockEndpoint.java 385 | Asserting: mock://output is satisfied
+2017-06-12 21:20:02,261 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 21:20:02,261 | INFO | CamelTestSupport.java 374 | Testing done: processorTestUsingMock(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
+2017-06-12 21:20:02,261 | INFO | CamelTestSupport.java 375 | Took: 0.020 seconds (20 millis)
+2017-06-12 21:20:02,261 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 21:20:02,271 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-12 21:20:02,272 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 21:20:02,278 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://processorInput
+2017-06-12 21:20:02,278 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 21:20:02,298 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.227 seconds
+2017-06-12 21:20:02,299 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.027 seconds
+2017-06-12 21:20:02,302 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-12 21:20:02,302 | INFO | CamelTestSupport.java 228 | Testing: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
+2017-06-12 21:20:02,302 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-12 21:20:02,308 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-2) is starting
+2017-06-12 21:20:02,309 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-12 21:20:02,316 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2017-06-12 21:20:02,332 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-12 21:20:02,333 | INFO | DefaultCamelContext.java 3693 | Route: route2 started and consuming from: direct://processorInput
+2017-06-12 21:20:02,333 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-06-12 21:20:02,333 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-2) started in 0.025 seconds
+2017-06-12 21:20:02,335 | INFO | CamelLogger.java 159 | Received Message is 123:dilip:12JAN2017 and Headers are {breadcrumbId=ID-6c4008c0f7fa-60134-1497320401681-1-1}
+2017-06-12 21:20:02,335 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-12 21:20:02,335 | INFO | CamelTestSupport.java 374 | Testing done: processorTest(com.learncamel.route.CamelModifyDirectProcessorRouteTest)
+2017-06-12 21:20:02,336 | INFO | CamelTestSupport.java 375 | Took: 0.002 seconds (2 millis)
+2017-06-12 21:20:02,336 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-12 21:20:02,336 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-2) is shutting down
+2017-06-12 21:20:02,336 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-06-12 21:20:02,337 | INFO | DefaultShutdownStrategy.java 669 | Route: route2 shutdown complete, was consuming from: direct://processorInput
+2017-06-12 21:20:02,337 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-06-12 21:20:02,338 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-2) uptime 0.030 seconds
+2017-06-12 21:20:02,338 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-2) is shutdown in 0.002 seconds

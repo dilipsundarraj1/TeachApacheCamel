@@ -14,6 +14,7 @@ public class CamelModifyDirectProcessorRoute extends RouteBuilder {
         from("direct:processorInput")
                 .process(new CamelExampleProcessor())
                 .log("Received Message is ${body} and Headers are ${headers}")
-                .to("file:data/output?fileName=output.txt");
+                //.to("file:data/output?fileName=output.txt");
+                .to("mock:output");
     }
 }
