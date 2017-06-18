@@ -29,6 +29,15 @@
             <version>1.7.12</version>
         </dependency>
 
+
+        <!--X Stream-->
+
+        <dependency>
+        <groupId>org.apache.camel</groupId>
+        <artifactId>camel-xstream</artifactId>
+        <version>2.18.3</version>
+        </dependency>
+
         <!--Test Dependencies-->
 
         <dependency>
