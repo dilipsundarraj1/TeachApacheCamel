@@ -2031,3 +2031,147 @@ org.apache.camel.component.direct.DirectConsumerNotAvailableException: No consum
 2017-06-17 20:42:10,358 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
 2017-06-17 20:42:10,368 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.330 seconds
 2017-06-17 20:42:10,369 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.014 seconds
+2017-06-17 21:09:33,272 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-17 21:09:33,275 | INFO | CamelTestSupport.java 228 | Testing: marshalEmployeeJSON2XML(com.learncamel.route.xml2json.XML2JSONRouteTest)
+2017-06-17 21:09:33,276 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-17 21:09:34,469 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-17 21:09:34,470 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-17 21:09:34,519 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2017-06-17 21:09:34,588 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-17 21:09:34,617 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeexml2json
+2017-06-17 21:09:34,618 | INFO | DefaultCamelContext.java 3693 | Route: route2 started and consuming from: direct://unMarshalEmployeejson2xml
+2017-06-17 21:09:34,619 | INFO | DefaultCamelContext.java 2947 | Total 2 routes, of which 2 are started.
+2017-06-17 21:09:34,622 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.151 seconds
+2017-06-17 21:09:34,635 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version="1.0" encoding="UTF-8"?><Employee><id>123 </id><name>ABC</name><type>senior</type></Employee>]
+2017-06-17 21:09:34,723 | INFO | XMLSerializer.java 736 | Using default type string
+2017-06-17 21:09:34,772 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: byte[], Body: {"id":"123 ","name":"ABC","type":"senior"}]
+2017-06-17 21:09:34,773 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-17 21:09:34,773 | INFO | CamelTestSupport.java 374 | Testing done: marshalEmployeeJSON2XML(com.learncamel.route.xml2json.XML2JSONRouteTest)
+2017-06-17 21:09:34,774 | INFO | CamelTestSupport.java 375 | Took: 0.150 seconds (150 millis)
+2017-06-17 21:09:34,774 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-17 21:09:34,779 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-17 21:09:34,780 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2017-06-17 21:09:34,784 | INFO | DefaultShutdownStrategy.java 669 | Route: route2 shutdown complete, was consuming from: direct://unMarshalEmployeejson2xml
+2017-06-17 21:09:34,784 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeexml2json
+2017-06-17 21:09:34,784 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2017-06-17 21:09:34,794 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.326 seconds
+2017-06-17 21:09:34,794 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2017-06-17 21:09:47,608 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-17 21:09:47,611 | INFO | CamelTestSupport.java 228 | Testing: unMarshalEmployeeJSON2XML(com.learncamel.route.xml2json.XML2JSONRouteTest)
+2017-06-17 21:09:47,611 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-17 21:09:48,155 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-17 21:09:48,160 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-17 21:09:48,219 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2017-06-17 21:09:48,301 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-17 21:09:48,331 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeexml2json
+2017-06-17 21:09:48,332 | INFO | DefaultCamelContext.java 3693 | Route: route2 started and consuming from: direct://unMarshalEmployeejson2xml
+2017-06-17 21:09:48,332 | INFO | DefaultCamelContext.java 2947 | Total 2 routes, of which 2 are started.
+2017-06-17 21:09:48,335 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.178 seconds
+2017-06-17 21:09:48,415 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version="1.0" encoding="UTF-8"?><Employee><id>123 </id><name>ABC</name><type>senior</type></Employee>]
+2017-06-17 21:09:48,416 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-17 21:09:48,416 | INFO | CamelTestSupport.java 374 | Testing done: unMarshalEmployeeJSON2XML(com.learncamel.route.xml2json.XML2JSONRouteTest)
+2017-06-17 21:09:48,416 | INFO | CamelTestSupport.java 375 | Took: 0.081 seconds (81 millis)
+2017-06-17 21:09:48,417 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-17 21:09:48,424 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-17 21:09:48,424 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2017-06-17 21:09:48,429 | INFO | DefaultShutdownStrategy.java 669 | Route: route2 shutdown complete, was consuming from: direct://unMarshalEmployeejson2xml
+2017-06-17 21:09:48,429 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeexml2json
+2017-06-17 21:09:48,429 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2017-06-17 21:09:48,440 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.286 seconds
+2017-06-17 21:09:48,440 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.016 seconds
+2017-06-17 21:09:48,442 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-17 21:09:48,442 | INFO | CamelTestSupport.java 228 | Testing: marshalEmployeeJSON2XML(com.learncamel.route.xml2json.XML2JSONRouteTest)
+2017-06-17 21:09:48,442 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-17 21:09:48,444 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-2) is starting
+2017-06-17 21:09:48,444 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-17 21:09:48,450 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2017-06-17 21:09:48,467 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-17 21:09:48,468 | INFO | DefaultCamelContext.java 3693 | Route: route3 started and consuming from: direct://marshalEmployeexml2json
+2017-06-17 21:09:48,469 | INFO | DefaultCamelContext.java 3693 | Route: route4 started and consuming from: direct://unMarshalEmployeejson2xml
+2017-06-17 21:09:48,469 | INFO | DefaultCamelContext.java 2947 | Total 2 routes, of which 2 are started.
+2017-06-17 21:09:48,469 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-2) started in 0.025 seconds
+2017-06-17 21:09:48,470 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version="1.0" encoding="UTF-8"?><Employee><id>123 </id><name>ABC</name><type>senior</type></Employee>]
+2017-06-17 21:09:48,530 | INFO | XMLSerializer.java 736 | Using default type string
+2017-06-17 21:09:48,531 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: byte[], Body: {"id":"123 ","name":"ABC","type":"senior"}]
+2017-06-17 21:09:48,531 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-17 21:09:48,531 | INFO | CamelTestSupport.java 374 | Testing done: marshalEmployeeJSON2XML(com.learncamel.route.xml2json.XML2JSONRouteTest)
+2017-06-17 21:09:48,532 | INFO | CamelTestSupport.java 375 | Took: 0.062 seconds (62 millis)
+2017-06-17 21:09:48,532 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-17 21:09:48,532 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-2) is shutting down
+2017-06-17 21:09:48,532 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2017-06-17 21:09:48,533 | INFO | DefaultShutdownStrategy.java 669 | Route: route4 shutdown complete, was consuming from: direct://unMarshalEmployeejson2xml
+2017-06-17 21:09:48,533 | INFO | DefaultShutdownStrategy.java 669 | Route: route3 shutdown complete, was consuming from: direct://marshalEmployeexml2json
+2017-06-17 21:09:48,533 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2017-06-17 21:09:48,534 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-2) uptime 0.090 seconds
+2017-06-17 21:09:48,534 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-2) is shutdown in 0.002 seconds
+2017-06-17 21:14:18,404 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-17 21:14:18,409 | INFO | CamelTestSupport.java 228 | Testing: unMarshalEmployeeJSON2XML(com.learncamel.route.xml2json.XML2JSONRouteTest)
+2017-06-17 21:14:18,409 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-17 21:14:18,901 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-17 21:14:18,902 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-17 21:14:18,962 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2017-06-17 21:14:19,057 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-17 21:14:19,090 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeexml2json
+2017-06-17 21:14:19,091 | INFO | DefaultCamelContext.java 3693 | Route: route2 started and consuming from: direct://unMarshalEmployeejson2xml
+2017-06-17 21:14:19,091 | INFO | DefaultCamelContext.java 2947 | Total 2 routes, of which 2 are started.
+2017-06-17 21:14:19,094 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.190 seconds
+2017-06-17 21:14:19,193 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version="1.0" encoding="UTF-8"?><o><id>123 </id><name>ABC</name><type>senior</type></o>]
+2017-06-17 21:14:19,194 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-17 21:14:19,194 | INFO | CamelTestSupport.java 374 | Testing done: unMarshalEmployeeJSON2XML(com.learncamel.route.xml2json.XML2JSONRouteTest)
+2017-06-17 21:14:19,195 | INFO | CamelTestSupport.java 375 | Took: 0.099 seconds (99 millis)
+2017-06-17 21:14:19,195 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-17 21:14:19,203 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-17 21:14:19,204 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2017-06-17 21:14:19,209 | INFO | DefaultShutdownStrategy.java 669 | Route: route2 shutdown complete, was consuming from: direct://unMarshalEmployeejson2xml
+2017-06-17 21:14:19,209 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeexml2json
+2017-06-17 21:14:19,209 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2017-06-17 21:14:19,222 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.321 seconds
+2017-06-17 21:14:19,222 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.019 seconds
+2017-06-17 21:22:07,424 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-17 21:22:07,427 | INFO | CamelTestSupport.java 228 | Testing: unMarshalEmployeeJSON2XML(com.learncamel.route.xml2json.XML2JSONRouteTest)
+2017-06-17 21:22:07,427 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-17 21:22:07,949 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-06-17 21:22:07,950 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-17 21:22:08,028 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2017-06-17 21:22:08,128 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-17 21:22:08,170 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeexml2json
+2017-06-17 21:22:08,171 | INFO | DefaultCamelContext.java 3693 | Route: route2 started and consuming from: direct://unMarshalEmployeejson2xml
+2017-06-17 21:22:08,171 | INFO | DefaultCamelContext.java 2947 | Total 2 routes, of which 2 are started.
+2017-06-17 21:22:08,176 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.223 seconds
+2017-06-17 21:22:08,296 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version="1.0" encoding="UTF-8"?><Employee><id>123 </id><name>ABC</name><type>senior</type></Employee>]
+2017-06-17 21:22:08,297 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-17 21:22:08,297 | INFO | CamelTestSupport.java 374 | Testing done: unMarshalEmployeeJSON2XML(com.learncamel.route.xml2json.XML2JSONRouteTest)
+2017-06-17 21:22:08,297 | INFO | CamelTestSupport.java 375 | Took: 0.121 seconds (121 millis)
+2017-06-17 21:22:08,297 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-17 21:22:08,304 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-06-17 21:22:08,304 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2017-06-17 21:22:08,308 | INFO | DefaultShutdownStrategy.java 669 | Route: route2 shutdown complete, was consuming from: direct://unMarshalEmployeejson2xml
+2017-06-17 21:22:08,308 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeexml2json
+2017-06-17 21:22:08,308 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2017-06-17 21:22:08,320 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.372 seconds
+2017-06-17 21:22:08,320 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.016 seconds
+2017-06-17 21:22:08,322 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-06-17 21:22:08,322 | INFO | CamelTestSupport.java 228 | Testing: marshalEmployeeJSON2XML(com.learncamel.route.xml2json.XML2JSONRouteTest)
+2017-06-17 21:22:08,322 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-06-17 21:22:08,326 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-2) is starting
+2017-06-17 21:22:08,326 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-06-17 21:22:08,331 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2017-06-17 21:22:08,344 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-06-17 21:22:08,345 | INFO | DefaultCamelContext.java 3693 | Route: route3 started and consuming from: direct://marshalEmployeexml2json
+2017-06-17 21:22:08,346 | INFO | DefaultCamelContext.java 3693 | Route: route4 started and consuming from: direct://unMarshalEmployeejson2xml
+2017-06-17 21:22:08,346 | INFO | DefaultCamelContext.java 2947 | Total 2 routes, of which 2 are started.
+2017-06-17 21:22:08,346 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-2) started in 0.020 seconds
+2017-06-17 21:22:08,347 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version="1.0" encoding="UTF-8"?><Employee><id>123 </id><name>ABC</name><type>senior</type></Employee>]
+2017-06-17 21:22:08,422 | INFO | XMLSerializer.java 736 | Using default type string
+2017-06-17 21:22:08,425 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: byte[], Body: {"id":"123 ","name":"ABC","type":"senior"}]
+2017-06-17 21:22:08,426 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-06-17 21:22:08,426 | INFO | CamelTestSupport.java 374 | Testing done: marshalEmployeeJSON2XML(com.learncamel.route.xml2json.XML2JSONRouteTest)
+2017-06-17 21:22:08,426 | INFO | CamelTestSupport.java 375 | Took: 0.080 seconds (80 millis)
+2017-06-17 21:22:08,426 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-06-17 21:22:08,429 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-2) is shutting down
+2017-06-17 21:22:08,429 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2017-06-17 21:22:08,430 | INFO | DefaultShutdownStrategy.java 669 | Route: route4 shutdown complete, was consuming from: direct://unMarshalEmployeejson2xml
+2017-06-17 21:22:08,430 | INFO | DefaultShutdownStrategy.java 669 | Route: route3 shutdown complete, was consuming from: direct://marshalEmployeexml2json
+2017-06-17 21:22:08,430 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2017-06-17 21:22:08,432 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-2) uptime 0.106 seconds
+2017-06-17 21:22:08,433 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-2) is shutdown in 0.005 seconds
