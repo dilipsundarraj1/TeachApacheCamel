@@ -12,4 +12,12 @@ public class CamelBean {
         return  newBody;
 
     }
+
+    public String map2(String input){
+
+        String newBody = input.replace(",", "~");
+
+        return  newBody;
+
+    }
 }
