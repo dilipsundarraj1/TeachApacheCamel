@@ -19,8 +19,8 @@ public class MarshalUsingXStream extends RouteBuilder {
 
         from("direct:csvinput")
                 .process(new CustomProcessorXStream())
+                //.marshal().xstream()
                 .marshal(populateStreamDef())
-               // .marshal().xstream()
                 .to("log:?level=INFO&showBody=true")
                 .to("mock:output");
     }
@@ -30,7 +30,6 @@ public class MarshalUsingXStream extends RouteBuilder {
         XStreamDataFormat xstreamDefinition = new XStreamDataFormat();
 
         Map<String, String> aliases = new HashMap<String, String>();
-
 
         aliases.put("employee", Employee.class.getName());
 
