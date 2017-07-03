@@ -1,5 +1,8 @@
 package com.learncamel.bean;
 
+
+import com.learncamel.exception.ApplicationException;
+
 import java.util.logging.Logger;
 
 /**
@@ -15,7 +18,7 @@ public class DataModifier {
              newBody = input.replace(",", "*");
         }catch(RuntimeException e){
             log.severe("RuntimeException : " + e);
-            throw e;
+            //throw e;
         }
         catch(Exception e){
             log.severe("Exception : " + e);
@@ -23,5 +26,22 @@ public class DataModifier {
         }
         return  newBody;
 
+    }
+
+    public String mapOnException(String input) throws Exception {
+
+        String newBody=null;
+        try{
+            newBody = input.replace(",", "*");
+        }catch(RuntimeException e){
+            log.severe("RuntimeException : " + e);
+            //throw e;
+            throw new ApplicationException(e.getMessage());
+        }
+        catch(Exception e){
+            log.severe("Exception : " + e);
+            throw e;
+        }
+        return  newBody;
     }
 }
