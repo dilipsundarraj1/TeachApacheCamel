@@ -10,6 +10,8 @@ Please click the below link to install and run the ActiveMQ in your local.
 
 ## How to install Postgres in your machine
 
+Postgres is an opensource DB server.  
+
 **Mac:**  
 
 [Run Postgres in Mac](https://github.com/dilipSundar/TeachApacheCamel/blob/master/How-to-install-Postgres-in-Mac.md)

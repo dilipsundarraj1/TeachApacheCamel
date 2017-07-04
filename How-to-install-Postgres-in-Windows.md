@@ -2,54 +2,17 @@
 
 ## How to install PostGres?
 
-Run the below command :
+Download postgres from the below link.
 
 ```
-brew install postgres
-
+https://www.enterprisedb.com/downloads/postgres-postgresql-downloads#windows
 ```
 
-How to check the postgres version?  
+## Postgres GUI client
 
-```
-postgres --version
-```
+The installer will provide you the **pgAdmin** client as part of the installation.
 
-How to Start PostGres?
-
-```
-brew services start postgresql
-```
-
-How to Stop PostGres?
-
-```
-brew services stop postgresql
-
-```
-
-#### How to create a DB in Postgres via command line?
-
-https://www.postgresql.org/docs/9.1/static/app-createdb.html
-
-```
-createdb -p 5432 -h localhost -e localDB
-
-```
-
-## How to connect to Postgres DB server from Terminal:
-
-```
-psql <DB> -h <Server> -U <userid> -W "sslmode=require"
-```
-
-By Default user id postgres will be created.
-
-Conmmand to connect to Localhost:  
-
-```
-psql localDB localhost -U postgres
-```
+We can use this client to connect to the database.  
 
 ## How to connect to Postgres from Intellij:
 
