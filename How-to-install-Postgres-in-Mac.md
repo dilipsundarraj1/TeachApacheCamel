@@ -9,6 +9,12 @@ brew install postgres
 
 ```
 
+How to check the postgres version?  
+
+```
+postgres --version
+```
+
 How to Start PostGres?
 
 ```
