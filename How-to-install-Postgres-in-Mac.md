@@ -39,3 +39,9 @@ https://www.postgresql.org/docs/9.1/static/app-createdb.html
 createdb -p 5432 -h localhost -e localDB
 
 ```
+
+## PostGres Client
+
+Download the postgres client **pgAdmin** from the below link.
+
+[PostGres Client](https://www.postgresql.org/ftp/pgadmin3/pgadmin4/v1.1/macos/)
