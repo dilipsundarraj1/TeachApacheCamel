@@ -13,3 +13,7 @@ Please click the below link to install and run the ActiveMQ in your local.
 **Mac:**  
 
 [Run Postgres in Mac](https://github.com/dilipSundar/TeachApacheCamel/blob/master/How-to-install-Postgres-in-Mac.md)
+
+**Windows**  
+
+[Run Postgres in Windows](https://github.com/dilipSundar/TeachApacheCamel/blob/master/How-to-install-Postgres-in-Windows.md)
