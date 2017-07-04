@@ -45,7 +45,7 @@ psql <DB> -h <Server> -U <userid> -W "sslmode=require"
 
 By Default user id postgres will be created.
 
-Connecting to Localhost:  
+Conmmand to connect to Localhost:  
 
 ```
 psql localDB localhost -U postgres
