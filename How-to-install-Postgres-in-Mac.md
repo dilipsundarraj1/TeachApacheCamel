@@ -50,3 +50,38 @@ Conmmand to connect to Localhost:
 ```
 psql localDB localhost -U postgres
 ```
+
+## How to connect to Postgres from Intellij:
+
+Step 1:  
+
+**Mac :**
+
+```
+Intellij IDEA -> Preferences -> Plugins
+```
+
+**Windows:**  
+
+```
+File -> Settings-> Plugins  
+```
+
+Below steps are the same for windows and Mac.  
+Step 2:  
+
+Search for **DataBase Navigator**.
+
+Step 3:  
+
+Install the plugin and restart the Intellij.
+
+Step 4:  
+
+There will be a **Database Navigator** in the Menu bar.
+
+Step 5:  
+
+Click on **DataBase Navigator**.   
+
+Click on  **Open SQL Console**.  
