@@ -12,4 +12,4 @@ Please click the below link to install and run the ActiveMQ in your local.
 
 **Mac:**  
 
-[Run ActiveMQ](https://github.com/dilipSundar/TeachApacheCamel/blob/master/How-to-download:run-activemq.md)
+[Run Postgres in Mac](https://github.com/dilipSundar/TeachApacheCamel/blob/master/How-to-download:run-activemq.md)
