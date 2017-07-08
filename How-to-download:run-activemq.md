@@ -1,7 +1,7 @@
 ## Apache ActiveMQ
 Apache ActiveMQ is the most popular and powerful open source messaging server.
 
-Step 1: Download Active MQ from your local.  
+Step 1: Download Active MQ.  
 
 ```
 http://activemq.apache.org/activemq-5145-release.html
