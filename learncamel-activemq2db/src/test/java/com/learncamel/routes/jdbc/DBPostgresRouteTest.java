@@ -40,7 +40,7 @@ public class DBPostgresRouteTest extends CamelTestSupport {
 
         String input = "first db input";
        ArrayList responseList =  template.requestBody("direct:dbInput", input, ArrayList.class);
-        System.out.println("responseList : " + responseList.size());
+       System.out.println("responseList : " + responseList.size());
        assertNotEquals(0,responseList.size());
 
     }
