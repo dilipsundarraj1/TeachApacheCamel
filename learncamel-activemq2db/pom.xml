@@ -121,7 +121,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.learncamel.launch.Jms2DBMain</mainClass>
+                            <mainClcom.learncamel.launch.AppLauncherrMain</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -137,7 +137,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.learncamel.launch.Jms2DBMain</mainClass>
+                            <mainClass>com.learncamel.launch.AppLauncher</mainClass>
                             <classpathPrefix>dependency-jars/</classpathPrefix>
                         </manifest>
                     </archive>

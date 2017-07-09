@@ -19,7 +19,7 @@ public class DBPostgresRouteTest extends CamelTestSupport {
     @Override
     public CamelContext createCamelContext() {
 
-        String url = "jdbc:postgresql://localhost:5432/sampleDB";
+        String url = "jdbc:postgresql://localhost:5432/localDB";
         DataSource dataSource = setupDataSource(url);
 
         SimpleRegistry registry = new SimpleRegistry();

@@ -12,19 +12,17 @@ import javax.sql.DataSource;
 /**
  * Created by z001qgd on 5/27/17.
  */
-public class Jms2DBMain {
+public class AppLauncher {
 
     public static void main(String[] args) throws Exception {
         Main main = new Main();
 
-        String url = "jdbc:postgresql://localhost:5432/sampleDB";
+        String url = "jdbc:postgresql://localhost:5432/localDB";
 
         main.bind("myDataSource",setupDataSource(url));  //map based registry
         //main.bind();
 
         main.addRouteBuilder(new Jms2DBRoute());
-
-
 
         System.out.println("Starting Camel JMS to DB Route.");
 
