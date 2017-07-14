@@ -19,3 +19,7 @@ Postgres is an opensource DB server.
 **Windows**  
 
 [Run Postgres in Windows](https://github.com/dilipSundar/TeachApacheCamel/blob/master/How-to-install-Postgres-in-Windows.md)
+
+## How to run/download/install Kafka in your machine.
+
+[Run Kafka in your machine](https://github.com/dilipSundar/TeachApacheCamel/blob/master/learncamel-kafka2DB/README.md)
