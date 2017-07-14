@@ -64,6 +64,17 @@ The below command creates a topic called **my-topic**.
 ./kafka-topics.sh --create --topic my-topic -zookeeper localhost:2181 --replication-factor 1 --partitions 1
 ```
 
+## How to check the configuration of a particular topic?
+**Windows**
+
+```
+kafka-topics.bat --describe --topic my-topic --zookeeper localhost:2181
+```
+**MAC:**  
+```
+./kafka-topics.sh --describe --topic my-topic --zookeeper localhost:2181
+```
+
 ## How to instantiate a Console Producer?
 
 **Windows:**
