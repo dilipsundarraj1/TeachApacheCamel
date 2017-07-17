@@ -23,3 +23,9 @@ Postgres is an opensource DB server.
 ## How to download/install/run Kafka in your machine.
 
 [Run Kafka in your machine](https://github.com/dilipSundar/TeachApacheCamel/blob/master/learncamel-kafka2DB/README.md)
+
+## Rest Endpoint:
+
+```
+https://restcountries.eu/
+```
