@@ -47,6 +47,16 @@ public class Rest2DBRouteTest extends CamelTestSupport {
 
     }
 
+    @Test
+    public void rest2dbroute_exception(){
+
+        ArrayList responseList =  consumer.receiveBody("timer:learnTimer", ArrayList.class);
+
+        assertNull(responseList);
+
+    }
+
+
 
     private static DataSource setupDataSource(String connectURI) {
         BasicDataSource ds = new BasicDataSource();
