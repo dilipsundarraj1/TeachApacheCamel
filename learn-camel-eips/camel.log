@@ -291,3 +291,47 @@
 2017-07-22 07:06:10,055 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
 2017-07-22 07:06:10,065 | INFO | DefaultCamelContext.java 3548 | Apache Camel 2.20.0-SNAPSHOT (CamelContext: camel-1) uptime 5.161 seconds
 2017-07-22 07:06:10,065 | INFO | DefaultCamelContext.java 3549 | Apache Camel 2.20.0-SNAPSHOT (CamelContext: camel-1) is shutdown in 0.013 seconds
+2017-07-22 10:56:47,922 | INFO | CamelTestSupport.java 242 | ********************************************************************************
+2017-07-22 10:56:47,926 | INFO | CamelTestSupport.java 243 | Testing: wireTapRoute(com.learncamel.eip.wiretap.WireTapRouteTest)
+2017-07-22 10:56:47,926 | INFO | CamelTestSupport.java 244 | ********************************************************************************
+2017-07-22 10:56:48,339 | INFO | DefaultCamelContext.java 3121 | Apache Camel 2.20.0-SNAPSHOT (CamelContext: camel-1) is starting
+2017-07-22 10:56:48,340 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2017-07-22 10:56:48,394 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2017-07-22 10:56:48,515 | INFO | DefaultCamelContext.java 3426 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-07-22 10:56:48,521 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-07-22 10:56:48,521 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-07-22 10:56:48,534 | INFO | DefaultCamelContext.java 3986 | Route: route1 started and consuming from: file://input?noop=true
+2017-07-22 10:56:48,536 | INFO | DefaultCamelContext.java 3166 | Total 1 routes, of which 1 are started.
+2017-07-22 10:56:48,539 | INFO | DefaultCamelContext.java 3167 | Apache Camel 2.20.0-SNAPSHOT (CamelContext: camel-1) started in 0.198 seconds
+2017-07-22 10:56:53,542 | INFO | CamelTestSupport.java 388 | ********************************************************************************
+2017-07-22 10:56:53,542 | INFO | CamelTestSupport.java 389 | Testing done: wireTapRoute(com.learncamel.eip.wiretap.WireTapRouteTest)
+2017-07-22 10:56:53,543 | INFO | CamelTestSupport.java 390 | Took: 5.002 seconds (5002 millis)
+2017-07-22 10:56:53,543 | INFO | CamelTestSupport.java 419 | ********************************************************************************
+2017-07-22 10:56:53,544 | INFO | DefaultCamelContext.java 3457 | Apache Camel 2.20.0-SNAPSHOT (CamelContext: camel-1) is shutting down
+2017-07-22 10:56:53,545 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-07-22 10:56:53,547 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2017-07-22 10:56:53,547 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-07-22 10:56:53,559 | INFO | DefaultCamelContext.java 3548 | Apache Camel 2.20.0-SNAPSHOT (CamelContext: camel-1) uptime 5.221 seconds
+2017-07-22 10:56:53,559 | INFO | DefaultCamelContext.java 3549 | Apache Camel 2.20.0-SNAPSHOT (CamelContext: camel-1) is shutdown in 0.015 seconds
+2017-07-22 11:08:50,695 | INFO | CamelTestSupport.java 242 | ********************************************************************************
+2017-07-22 11:08:50,697 | INFO | CamelTestSupport.java 243 | Testing: wireTapRoute(com.learncamel.eip.wiretap.WireTapRouteTest)
+2017-07-22 11:08:50,698 | INFO | CamelTestSupport.java 244 | ********************************************************************************
+2017-07-22 11:08:51,028 | INFO | DefaultCamelContext.java 3121 | Apache Camel 2.20.0-SNAPSHOT (CamelContext: camel-1) is starting
+2017-07-22 11:08:51,030 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2017-07-22 11:08:51,068 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2017-07-22 11:08:51,163 | INFO | DefaultCamelContext.java 3426 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-07-22 11:08:51,167 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2017-07-22 11:08:51,167 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2017-07-22 11:08:51,179 | INFO | DefaultCamelContext.java 3986 | Route: route1 started and consuming from: file://input?noop=true
+2017-07-22 11:08:51,179 | INFO | DefaultCamelContext.java 3166 | Total 1 routes, of which 1 are started.
+2017-07-22 11:08:51,181 | INFO | DefaultCamelContext.java 3167 | Apache Camel 2.20.0-SNAPSHOT (CamelContext: camel-1) started in 0.151 seconds
+2017-07-22 11:08:56,186 | INFO | CamelTestSupport.java 388 | ********************************************************************************
+2017-07-22 11:08:56,187 | INFO | CamelTestSupport.java 389 | Testing done: wireTapRoute(com.learncamel.eip.wiretap.WireTapRouteTest)
+2017-07-22 11:08:56,188 | INFO | CamelTestSupport.java 390 | Took: 5.004 seconds (5004 millis)
+2017-07-22 11:08:56,188 | INFO | CamelTestSupport.java 419 | ********************************************************************************
+2017-07-22 11:08:56,190 | INFO | DefaultCamelContext.java 3457 | Apache Camel 2.20.0-SNAPSHOT (CamelContext: camel-1) is shutting down
+2017-07-22 11:08:56,191 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-07-22 11:08:56,194 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2017-07-22 11:08:56,194 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-07-22 11:08:56,206 | INFO | DefaultCamelContext.java 3548 | Apache Camel 2.20.0-SNAPSHOT (CamelContext: camel-1) uptime 5.178 seconds
+2017-07-22 11:08:56,207 | INFO | DefaultCamelContext.java 3549 | Apache Camel 2.20.0-SNAPSHOT (CamelContext: camel-1) is shutdown in 0.017 seconds
