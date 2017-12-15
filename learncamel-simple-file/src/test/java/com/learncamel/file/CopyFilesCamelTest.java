@@ -6,6 +6,7 @@ import org.apache.camel.test.junit4.CamelTestSupport;
 import org.junit.Test;
 
 import java.io.File;
+import java.time.LocalDateTime;
 
 /**
  * Created by z001qgd on 6/8/17.
@@ -19,6 +20,7 @@ public class CopyFilesCamelTest extends CamelTestSupport {
 
     @Test
     public void checkFileExistsInOutputDirectory() throws InterruptedException {
+
 
         Thread.sleep(5000);
 
