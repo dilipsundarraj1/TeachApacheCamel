@@ -1,6 +1,7 @@
 package com.learncamel.processor;
 
 import org.apache.camel.Exchange;
+import org.apache.camel.component.file.GenericFile;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -14,12 +15,12 @@ public class CamelFileExampleProcessor implements org.apache.camel.Processor {
     String newValue="";
     public void process(Exchange exchange) throws Exception {
 
-        File file = new File((String) exchange.getIn().getHeaders().get("CamelFilePath"));
+        GenericFile<File> file = (GenericFile) exchange.getIn().getBody();
         String readLine=null;
 
         if(file!=null){
 
-            FileReader file1 = new FileReader(file);
+            FileReader file1 = new FileReader(file.getFile());
             BufferedReader reader = new BufferedReader(file1);
 
             while((readLine =reader.readLine()) !=null){
