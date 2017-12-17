@@ -1,6 +1,6 @@
 package com.learncamel.route.bean;
 
-import com.learncamel.processor.CamelBean;
+import com.learncamel.bean.CamelBean;
 import org.apache.camel.builder.RouteBuilder;
 
 /**

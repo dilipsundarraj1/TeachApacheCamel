@@ -1,4 +1,4 @@
-package com.learncamel.processor;
+package com.learncamel.bean;
 
 /**
  * Created by z001qgd on 6/14/17.
