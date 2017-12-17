@@ -13,6 +13,8 @@ import java.io.FileReader;
 public class CamelFileExampleProcessor implements org.apache.camel.Processor {
 
     String newValue="";
+    private String readLine;
+
     public void process(Exchange exchange) throws Exception {
 
         GenericFile<File> file = (GenericFile) exchange.getIn().getBody();

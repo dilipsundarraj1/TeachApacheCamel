@@ -23,7 +23,7 @@ public class UnMarshalUsingXStream extends RouteBuilder {
         // it will through the com.thoughtworks.xstream.security.ForbiddenClassException: com.learncamel.transformXML.xstream.Employee
 
 
-        from("direct:xmlinput")
+        from("process:xmlinput")
                 .unmarshal(xstreamDataFormat)
                 .to("log:?level=INFO&showBody=true")
                 .to("mock:output");

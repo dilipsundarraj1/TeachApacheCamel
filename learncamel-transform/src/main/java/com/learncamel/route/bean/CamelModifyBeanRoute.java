@@ -10,7 +10,7 @@ public class CamelModifyBeanRoute extends RouteBuilder {
 
     public void configure() throws Exception {
 
-        from("direct:beanInput")
+        from("process:beanInput")
               .bean(new CamelBean())
                 //.bean(new CamelBean(), "map")
                 .log("Received Message is ${body} and Headers are ${headers}")

@@ -1,6 +1,5 @@
 package com.learncamel.route.transform;
 
-import com.learncamel.route.CamelModifyFileProcessorRoute;
 import org.apache.camel.RoutesBuilder;
 import org.apache.camel.component.mock.MockEndpoint;
 import org.apache.camel.test.junit4.CamelTestSupport;
@@ -21,7 +20,7 @@ public class CamelModifyTransformRouteTest extends CamelTestSupport {
 
 
         String expected = "123*dilip*12JAN2017";
-        String output = (String) template.requestBody("direct:transformInput","123,dilip,12JAN2017" );
+        String output = (String) template.requestBody("process:transformInput","123,dilip,12JAN2017" );
         System.out.println("output : "+ output);
 
         assertEquals(expected,output);
@@ -36,7 +35,7 @@ public class CamelModifyTransformRouteTest extends CamelTestSupport {
 
 
 
-        template.sendBody("direct:transformInput","123,dilip,12JAN2017" );
+        template.sendBody("process:transformInput","123,dilip,12JAN2017" );
 
         assertMockEndpointsSatisfied();
     }

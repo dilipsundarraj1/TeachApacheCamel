@@ -21,7 +21,7 @@ public class XML2JSONRouteTest extends CamelTestSupport {
         String request = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n" +
                 "<Employee><id>123 </id><name>ABC</name><type>senior</type></Employee>\r\n";
 
-        final String response = template.requestBody("direct:marshalEmployeexml2json", request, String.class);
+        final String response = template.requestBody("process:marshalEmployeexml2json", request, String.class);
         System.out.println("response is : " + response);
 
         assertEquals(expected, response);
@@ -33,7 +33,7 @@ public class XML2JSONRouteTest extends CamelTestSupport {
 
         final String request = "{\"name\":\"ABC\",\"id\":\"123 \",\"type\":\"senior\"}";
 
-        final String response = template.requestBody("direct:unMarshalEmployeejson2xml", request, String.class);
+        final String response = template.requestBody("process:unMarshalEmployeejson2xml", request, String.class);
         System.out.println("response is : " + response);
         String expected = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n" +
                 "<Employee><id>123 </id><name>ABC</name><type>senior</type></Employee>\r\n";

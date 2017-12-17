@@ -1,12 +1,10 @@
 package com.learncamel.route;
 
-import com.learncamel.route.direct.CamelModifyDirectProcessorRoute;
+import com.learncamel.route.process.CamelModifyDirectProcessorRoute;
 import org.apache.camel.RoutesBuilder;
 import org.apache.camel.component.mock.MockEndpoint;
 import org.apache.camel.test.junit4.CamelTestSupport;
 import org.junit.Test;
-
-import java.io.File;
 
 /**
  * Created by z001qgd on 6/11/17.
@@ -26,7 +24,7 @@ public class CamelModifyDirectProcessorRouteTest extends CamelTestSupport {
 
         String expected = "123:dilip:12JAN2017";
 
-        String output = (String) template.requestBody("direct:processorInput","123,dilip,12JAN2017" );
+        String output = (String) template.requestBody("process:processorInput","123,dilip,12JAN2017" );
 
         System.out.println("output : " + output);
             assertEquals(expected , output);
@@ -44,7 +42,7 @@ public class CamelModifyDirectProcessorRouteTest extends CamelTestSupport {
         mock.expectedBodiesReceived(expected);
 
 
-        String output = (String) template.requestBody("direct:processorInput","123,dilip,12JAN2017" );
+        String output = (String) template.requestBody("process:processorInput","123,dilip,12JAN2017" );
 
         System.out.println("output : " + output);
         assertMockEndpointsSatisfied();

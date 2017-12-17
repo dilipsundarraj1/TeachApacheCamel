@@ -11,7 +11,7 @@ public class XML2JSONRoute extends RouteBuilder {
 
     public void configure() throws Exception {
 
-        from("direct:marshalEmployeexml2json")
+        from("process:marshalEmployeexml2json")
                 .to("log:?level=INFO&showBody=true")
                 .marshal().xmljson()
                 .to("log:?level=INFO&showBody=true");
@@ -20,7 +20,7 @@ public class XML2JSONRoute extends RouteBuilder {
         final XmlJsonDataFormat xmlJsonFormat = new XmlJsonDataFormat();
         xmlJsonFormat.setRootName("Employee");
 
-        from("direct:unMarshalEmployeejson2xml")
+        from("process:unMarshalEmployeejson2xml")
                 //.unmarshal().xmljson()
                 .unmarshal(xmlJsonFormat)
                 .to("log:?level=INFO&showBody=true");

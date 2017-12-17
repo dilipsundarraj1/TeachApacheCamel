@@ -1,7 +1,5 @@
 package com.learncamel.route.xmlxstream;
 
-import com.learncamel.route.direct.CamelModifyDirectProcessorRoute;
-import org.apache.camel.Exchange;
 import org.apache.camel.RoutesBuilder;
 import org.apache.camel.component.mock.MockEndpoint;
 import org.apache.camel.test.junit4.CamelTestSupport;
@@ -24,7 +22,7 @@ public class MarshalUsingXStreamTest extends CamelTestSupport {
         MockEndpoint mock = getMockEndpoint("mock:output");
         mock.expectedBodiesReceived(expected);
 
-        template.sendBody("direct:csvinput", "dilip,123,01APR2017");
+        template.sendBody("process:csvinput", "dilip,123,01APR2017");
 
         assertMockEndpointsSatisfied();
 
@@ -37,7 +35,7 @@ public class MarshalUsingXStreamTest extends CamelTestSupport {
         MockEndpoint mock = getMockEndpoint("mock:output");
         mock.expectedBodiesReceived(expected);
 
-        template.sendBody("direct:csvinput", "dilip,123,01APR2017");
+        template.sendBody("process:csvinput", "dilip,123,01APR2017");
 
         assertMockEndpointsSatisfied();
 
