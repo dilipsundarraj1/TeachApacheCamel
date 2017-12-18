@@ -22,7 +22,7 @@ public class MarshalUsingXStreamTest extends CamelTestSupport {
         MockEndpoint mock = getMockEndpoint("mock:output");
         mock.expectedBodiesReceived(expected);
 
-        template.sendBody("process:csvinput", "dilip,123,01APR2017");
+        template.sendBody("direct:csvinput", "dilip,123,01APR2017");
 
         assertMockEndpointsSatisfied();
 
@@ -35,7 +35,7 @@ public class MarshalUsingXStreamTest extends CamelTestSupport {
         MockEndpoint mock = getMockEndpoint("mock:output");
         mock.expectedBodiesReceived(expected);
 
-        template.sendBody("process:csvinput", "dilip,123,01APR2017");
+        template.sendBody("direct:csvinput", "dilip,123,01APR2017");
 
         assertMockEndpointsSatisfied();
 

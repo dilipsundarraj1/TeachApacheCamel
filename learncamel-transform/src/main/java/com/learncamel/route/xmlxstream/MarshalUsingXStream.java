@@ -17,9 +17,9 @@ public class MarshalUsingXStream extends RouteBuilder {
 
     public void configure() throws Exception {
 
-        from("process:csvinput")
+        from("direct:csvinput")
                 .process(new CustomProcessorXStream())
-                //.marshal().xstream()
+               // .marshal().xstream()
                 .marshal(populateStreamDef())
                 .to("log:?level=INFO&showBody=true")
                 .to("mock:output");
