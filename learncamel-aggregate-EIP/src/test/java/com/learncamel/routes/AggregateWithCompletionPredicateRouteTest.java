@@ -1,4 +1,4 @@
-package routes;
+package com.learncamel.routes;
 
 import com.learncamel.routes.AggregateWithCompletionPredicateRoute;
 import org.apache.camel.builder.RouteBuilder;
@@ -29,7 +29,7 @@ public class AggregateWithCompletionPredicateRouteTest extends CamelTestSupport 
 
         MockEndpoint mock = getMockEndpoint("mock:output");
 
-        mock.expectedBodiesReceived(orderConfirm);
+        mock.expectedBodiesReceived(orderCreate+",".concat(orderConfirm));
 
 
 

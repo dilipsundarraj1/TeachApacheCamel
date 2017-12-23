@@ -1,6 +1,7 @@
 package com.learncamel.routes;
 
 import com.learncamel.aggregator.AggregatorPredicateStrategy;
+import com.learncamel.aggregator.AggregatorSimpleRouteStrategy;
 import com.learncamel.domain.Order;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.gson.GsonDataFormat;

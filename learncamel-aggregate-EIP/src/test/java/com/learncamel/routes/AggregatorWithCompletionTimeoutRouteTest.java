@@ -1,5 +1,6 @@
 package com.learncamel.routes;
 
+import com.learncamel.routes.AggregatorWithCompletionTimeoutRoute;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.mock.MockEndpoint;
 import org.apache.camel.test.junit4.CamelTestSupport;

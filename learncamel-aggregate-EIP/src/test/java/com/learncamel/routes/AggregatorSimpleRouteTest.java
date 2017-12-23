@@ -1,5 +1,6 @@
 package com.learncamel.routes;
 
+import com.learncamel.routes.AggregatorSimpleRoute;
 import org.apache.camel.Exchange;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.mock.MockEndpoint;
