@@ -1,5 +1,6 @@
-package com.learncamel.routes;
+package routes;
 
+import com.learncamel.routes.AggregateWithCompletionPredicateRoute;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.mock.MockEndpoint;
 import org.apache.camel.test.junit4.CamelTestSupport;
@@ -26,12 +27,9 @@ public class AggregateWithCompletionPredicateRouteTest extends CamelTestSupport 
         String orderCreate = "12345,samsung-phone,order-created";
         String orderConfirm = "12345,samsung-phone,order-confirm";
 
-        List<String>  orderList = new ArrayList<String>();
-        orderList.add(orderConfirm);
-
         MockEndpoint mock = getMockEndpoint("mock:output");
 
-        mock.expectedBodiesReceived(orderList);
+        mock.expectedBodiesReceived(orderConfirm);
 
 
 
