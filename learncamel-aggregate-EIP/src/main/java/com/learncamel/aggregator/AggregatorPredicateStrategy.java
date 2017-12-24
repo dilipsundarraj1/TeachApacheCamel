@@ -18,7 +18,7 @@ public class AggregatorPredicateStrategy implements org.apache.camel.processor.a
             String oldBody = (String) oldExchange.getIn().getBody();
             String newBody = (String) newExchange.getIn().getBody();
 
-            newBody = oldBody.concat(",").concat(newBody);
+            newBody = oldBody.concat(":").concat(newBody);
 
             newExchange.getIn().setBody(newBody);
 

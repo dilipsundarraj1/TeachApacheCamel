@@ -29,7 +29,7 @@ public class AggregateWithCompletionPredicateRouteTest extends CamelTestSupport 
 
         MockEndpoint mock = getMockEndpoint("mock:output");
 
-        mock.expectedBodiesReceived(orderCreate+",".concat(orderConfirm));
+        mock.expectedBodiesReceived(orderCreate.concat(":").concat(orderConfirm));
 
 
 
