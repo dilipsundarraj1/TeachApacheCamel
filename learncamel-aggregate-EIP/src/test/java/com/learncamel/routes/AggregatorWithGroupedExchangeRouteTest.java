@@ -24,7 +24,7 @@ public class AggregatorWithGroupedExchangeRouteTest extends CamelTestSupport {
     public void groupExchangeTest() throws InterruptedException {
 
         MockEndpoint mockEndpoint = getMockEndpoint("mock:grpoutput");
-
+        mockEndpoint.expectedBodiesReceived(1);
 
 
         template.sendBodyAndHeader("direct:grpAggregator", "1", "aggregatorId", 1);
