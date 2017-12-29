@@ -28,7 +28,7 @@ public class FixedPositionUnMarshalRouteDelimiterSalaryTest extends CamelTestSup
         List<EmployeeWithFixedLength> employeeList = (List<EmployeeWithFixedLength>) exchange.getIn().getBody();
         assertNotNull(employeeList);
         System.out.println(employeeList);
-        assertNotNull("dilip",employeeList.get(0).getName());
+        assertEquals("dilip",employeeList.get(0).getName());
 
         BigDecimal expectedSalary = new BigDecimal("100000.00");
         assertEquals(expectedSalary, employeeList.get(0).getSalary());

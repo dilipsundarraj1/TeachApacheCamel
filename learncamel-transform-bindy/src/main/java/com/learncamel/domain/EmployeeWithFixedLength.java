@@ -9,14 +9,14 @@ import java.time.LocalDate;
 /**
  * Created by z001qgd on 12/23/17.
  */
-//@FixedLengthRecord(length = 21,ignoreTrailingChars = true)
+//@FixedLengthRecord(length = 21,ignoreTrailingChars = true)ignoreTrailingChars-> This is used to ignore the characters after the last mapped field.
 //@FixedLengthRecord(length = 30)
 @FixedLengthRecord(ignoreTrailingChars = true)
 public class EmployeeWithFixedLength {
 
     @DataField(pos = 1, length = 3)
     private int id;
-    @DataField(pos = 2, length = 10,trim = true)
+    @DataField(pos = 2, length = 10,trim = true,align = "L")
     private String name;
     @DataField(pos = 3, length = 8)
     private String role;

@@ -9,7 +9,7 @@ import org.apache.camel.dataformat.bindy.annotation.DataField;
 //@CsvRecord( separator = ",",skipFirstLine=true )
 //@CsvRecord( separator = ";",skipFirstLine=true )
 //@CsvRecord( separator = "\\|",skipFirstLine=true )
-@CsvRecord( separator = "\\*",skipFirstLine=true )
+@CsvRecord( separator = "\\*",skipFirstLine=true ,generateHeaderColumns = true)
 //@CsvRecord( separator = ",",skipFirstLine=true ,generateHeaderColumns = true)
 public class Employee {
 
