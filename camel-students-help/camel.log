@@ -1,0 +1,48 @@
+2018-01-02 11:37:00,240 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-01-02 11:37:00,242 | INFO | CamelTestSupport.java 244 | Testing: xyTest(com.learncamel.route.XYRouteTest)
+2018-01-02 11:37:00,243 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-01-02 11:37:00,714 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-01-02 11:37:00,715 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-01-02 11:37:00,761 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2018-01-02 11:37:00,853 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-01-02 11:37:00,858 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://A
+2018-01-02 11:37:00,858 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2018-01-02 11:37:00,861 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.145 seconds
+2018-01-02 11:37:00,871 | INFO | CamelLogger.java 159 | Message is AB
+2018-01-02 11:37:00,884 | INFO | CamelLogger.java 159 | Message is AB
+2018-01-02 11:37:00,885 | INFO | CamelLogger.java 159 | Message is X
+2018-01-02 11:37:00,885 | INFO | CamelLogger.java 159 | Message is Y
+2018-01-02 11:37:00,887 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-01-02 11:37:00,887 | INFO | CamelTestSupport.java 390 | Testing done: xyTest(com.learncamel.route.XYRouteTest)
+2018-01-02 11:37:00,889 | INFO | CamelTestSupport.java 391 | Took: 0.025 seconds (25 millis)
+2018-01-02 11:37:00,889 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-01-02 11:37:00,896 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-01-02 11:37:00,898 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-01-02 11:37:00,903 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://A
+2018-01-02 11:37:00,903 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-01-02 11:37:00,913 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.199 seconds
+2018-01-02 11:37:00,913 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.016 seconds
+2018-01-02 11:38:45,814 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-01-02 11:38:45,817 | INFO | CamelTestSupport.java 244 | Testing: xyTest(com.learncamel.route.XYRouteTest)
+2018-01-02 11:38:45,817 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-01-02 11:38:46,293 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-01-02 11:38:46,294 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-01-02 11:38:46,344 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2018-01-02 11:38:46,434 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-01-02 11:38:46,439 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://A
+2018-01-02 11:38:46,439 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2018-01-02 11:38:46,443 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.146 seconds
+2018-01-02 11:38:46,454 | INFO | CamelLogger.java 159 | Message is AB
+2018-01-02 11:38:46,466 | INFO | CamelLogger.java 159 | Message is AB
+2018-01-02 11:38:46,466 | INFO | CamelLogger.java 159 | Message is X
+2018-01-02 11:38:46,466 | INFO | CamelLogger.java 159 | Message is Y
+2018-01-02 11:38:46,467 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-01-02 11:38:46,467 | INFO | CamelTestSupport.java 390 | Testing done: xyTest(com.learncamel.route.XYRouteTest)
+2018-01-02 11:38:46,468 | INFO | CamelTestSupport.java 391 | Took: 0.024 seconds (24 millis)
+2018-01-02 11:38:46,468 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-01-02 11:38:46,475 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-01-02 11:38:46,475 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-01-02 11:38:46,479 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://A
+2018-01-02 11:38:46,479 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-01-02 11:38:46,492 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.199 seconds
+2018-01-02 11:38:46,492 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.017 seconds
