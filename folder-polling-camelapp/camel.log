@@ -1,0 +1,110 @@
+2018-01-09 19:26:56,939 | INFO | DefaultCamelContext.java 2901 | Apache Camel 2.18.1 (CamelContext: camel-1) is starting
+2018-01-09 19:26:56,943 | INFO | ManagedManagementStrategy.java 191 | JMX is enabled
+2018-01-09 19:26:57,120 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2018-01-09 19:26:57,141 | INFO | DefaultRuntimeEndpointRegistry.java 203 | Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+2018-01-09 19:26:57,258 | INFO | DefaultCamelContext.java 3148 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-01-09 19:26:57,294 | INFO | DefaultCamelContext.java 3689 | Route: route1 started and consuming from: timer://CSVReader?period=10s
+2018-01-09 19:26:57,296 | INFO | DefaultCamelContext.java 2943 | Total 1 routes, of which 1 are started.
+2018-01-09 19:26:57,298 | INFO | DefaultCamelContext.java 2944 | Apache Camel 2.18.1 (CamelContext: camel-1) started in 0.359 seconds
+2018-01-09 19:26:58,304 | INFO | CamelLogger.java 159 | Timer Triggered
+2018-01-09 19:26:58,309 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2018-01-09 19:26:58,310 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2018-01-09 19:26:59,331 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/tutorialcodebase/folder-polling-camelapp/data/input/file1.txt, CamelFileLastModified=1515547228000, CamelFileLength=5, CamelFileName=file1.txt, CamelFileNameConsumed=file1.txt, CamelFileNameOnly=file1.txt, CamelFileParent=data/input, CamelFilePath=data/input/file1.txt, CamelFileRelativePath=file1.txt, CamelToEndpoint=file://data/input?noop=true}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file1.txt]]]
+2018-01-09 19:27:08,304 | INFO | CamelLogger.java 159 | Timer Triggered
+2018-01-09 19:27:10,723 | INFO | MainSupport.java 80 | Received hang up - stopping the main instance.
+2018-01-09 19:27:10,723 | INFO | DefaultCamelContext.java 3169 | Apache Camel 2.18.1 (CamelContext: camel-1) is shutting down
+2018-01-09 19:27:10,724 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2018-01-09 19:27:10,726 | INFO | DefaultShutdownStrategy.java 576 | Route: route1 shutdown complete, was consuming from: timer://CSVReader?period=10s
+2018-01-09 19:27:10,727 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 300 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:27:11,732 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 299 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:27:12,733 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 298 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:27:13,736 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 297 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:27:14,740 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 296 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:27:15,742 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 295 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:27:16,743 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 294 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:27:17,747 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 293 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:27:18,750 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 292 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:27:19,751 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 291 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:27:20,451 | INFO | DefaultCamelContext.java 2901 | Apache Camel 2.18.1 (CamelContext: camel-1) is starting
+2018-01-09 19:27:20,459 | INFO | ManagedManagementStrategy.java 191 | JMX is enabled
+2018-01-09 19:27:20,677 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2018-01-09 19:27:20,707 | INFO | DefaultRuntimeEndpointRegistry.java 203 | Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+2018-01-09 19:27:20,755 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 290 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:27:20,838 | INFO | DefaultCamelContext.java 3148 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-01-09 19:27:20,874 | INFO | DefaultCamelContext.java 3689 | Route: route1 started and consuming from: timer://CSVReader?period=10s
+2018-01-09 19:27:20,876 | INFO | DefaultCamelContext.java 2943 | Total 1 routes, of which 1 are started.
+2018-01-09 19:27:20,879 | INFO | DefaultCamelContext.java 2944 | Apache Camel 2.18.1 (CamelContext: camel-1) started in 0.430 seconds
+2018-01-09 19:27:21,761 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 289 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:27:21,887 | INFO | CamelLogger.java 159 | Timer Triggered
+2018-01-09 19:27:21,893 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2018-01-09 19:27:21,893 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2018-01-09 19:27:22,765 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 288 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:27:22,914 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/tutorialcodebase/folder-polling-camelapp/data/input/file1.txt, CamelFileLastModified=1515547228000, CamelFileLength=5, CamelFileName=file1.txt, CamelFileNameConsumed=file1.txt, CamelFileNameOnly=file1.txt, CamelFileParent=data/input, CamelFilePath=data/input/file1.txt, CamelFileRelativePath=file1.txt, CamelToEndpoint=file://data/input?noop=true}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file1.txt]]]
+2018-01-09 19:27:23,769 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 287 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:27:24,774 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 286 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:27:25,778 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 285 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:27:26,782 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 284 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:27:27,511 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/tutorialcodebase/folder-polling-camelapp/data/input/file2.txt, CamelFileLastModified=1515547647000, CamelFileLength=0, CamelFileName=file2.txt, CamelFileNameConsumed=file2.txt, CamelFileNameOnly=file2.txt, CamelFileParent=data/input, CamelFilePath=data/input/file2.txt, CamelFileRelativePath=file2.txt, CamelToEndpoint=file://data/input?noop=true}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file2.txt]]]
+2018-01-09 19:27:27,787 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 17 seconds
+2018-01-09 19:27:27,804 | INFO | MainLifecycleStrategy.java 44 | CamelContext: camel-1 has been shutdown, triggering shutdown of the JVM.
+2018-01-09 19:27:27,806 | INFO | DefaultCamelContext.java 3258 | Apache Camel 2.18.1 (CamelContext: camel-1) uptime 30.869 seconds
+2018-01-09 19:27:27,806 | INFO | DefaultCamelContext.java 3259 | Apache Camel 2.18.1 (CamelContext: camel-1) is shutdown in 17.083 seconds
+2018-01-09 19:27:31,881 | INFO | CamelLogger.java 159 | Timer Triggered
+2018-01-09 19:27:31,965 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/tutorialcodebase/folder-polling-camelapp/data/input/file2.txt, CamelFileLastModified=1515547647000, CamelFileLength=0, CamelFileName=file2.txt, CamelFileNameConsumed=file2.txt, CamelFileNameOnly=file2.txt, CamelFileParent=data/input, CamelFilePath=data/input/file2.txt, CamelFileRelativePath=file2.txt, CamelToEndpoint=file://data/input?noop=true}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file2.txt]]]
+2018-01-09 19:27:41,879 | INFO | CamelLogger.java 159 | Timer Triggered
+2018-01-09 19:27:42,027 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/tutorialcodebase/folder-polling-camelapp/data/input/file3.txt, CamelFileLastModified=1515547657000, CamelFileLength=0, CamelFileName=file3.txt, CamelFileNameConsumed=file3.txt, CamelFileNameOnly=file3.txt, CamelFileParent=data/input, CamelFilePath=data/input/file3.txt, CamelFileRelativePath=file3.txt, CamelToEndpoint=file://data/input?noop=true}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file3.txt]]]
+2018-01-09 19:27:51,883 | INFO | CamelLogger.java 159 | Timer Triggered
+2018-01-09 19:28:00,049 | INFO | MainSupport.java 80 | Received hang up - stopping the main instance.
+2018-01-09 19:28:00,050 | INFO | DefaultCamelContext.java 3169 | Apache Camel 2.18.1 (CamelContext: camel-1) is shutting down
+2018-01-09 19:28:00,050 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2018-01-09 19:28:00,052 | INFO | DefaultShutdownStrategy.java 576 | Route: route1 shutdown complete, was consuming from: timer://CSVReader?period=10s
+2018-01-09 19:28:00,053 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 300 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:28:01,054 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 299 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:28:02,059 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 298 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:28:03,060 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 297 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:28:04,064 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 296 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:28:05,066 | INFO | DefaultShutdownStrategy.java 629 | Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 295 seconds. Inflights per route: [route1 = 1]
+2018-01-09 19:28:26,563 | INFO | DefaultCamelContext.java 2901 | Apache Camel 2.18.1 (CamelContext: camel-1) is starting
+2018-01-09 19:28:26,566 | INFO | ManagedManagementStrategy.java 191 | JMX is enabled
+2018-01-09 19:28:26,747 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2018-01-09 19:28:26,766 | INFO | DefaultRuntimeEndpointRegistry.java 203 | Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+2018-01-09 19:28:26,889 | INFO | DefaultCamelContext.java 3148 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-01-09 19:28:26,922 | INFO | DefaultCamelContext.java 3689 | Route: route1 started and consuming from: timer://CSVReader?period=10s
+2018-01-09 19:28:26,924 | INFO | DefaultCamelContext.java 2943 | Total 1 routes, of which 1 are started.
+2018-01-09 19:28:26,926 | INFO | DefaultCamelContext.java 2944 | Apache Camel 2.18.1 (CamelContext: camel-1) started in 0.363 seconds
+2018-01-09 19:28:27,939 | INFO | CamelLogger.java 159 | Timer Triggered
+2018-01-09 19:28:27,945 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2018-01-09 19:28:27,945 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2018-01-09 19:28:28,963 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/tutorialcodebase/folder-polling-camelapp/data/input/file1.txt, CamelFileLastModified=1515547228000, CamelFileLength=5, CamelFileName=file1.txt, CamelFileNameConsumed=file1.txt, CamelFileNameOnly=file1.txt, CamelFileParent=data/input, CamelFilePath=data/input/file1.txt, CamelFileRelativePath=file1.txt, CamelToEndpoint=file://data/input?noop=true}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file1.txt]]]
+2018-01-09 19:28:29,170 | INFO | MainSupport.java 80 | Received hang up - stopping the main instance.
+2018-01-09 19:28:29,170 | INFO | DefaultCamelContext.java 3169 | Apache Camel 2.18.1 (CamelContext: camel-1) is shutting down
+2018-01-09 19:28:29,171 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2018-01-09 19:28:29,172 | INFO | DefaultShutdownStrategy.java 576 | Route: route1 shutdown complete, was consuming from: timer://CSVReader?period=10s
+2018-01-09 19:28:29,174 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-01-09 19:28:29,186 | INFO | MainLifecycleStrategy.java 44 | CamelContext: camel-1 has been shutdown, triggering shutdown of the JVM.
+2018-01-09 19:28:29,188 | INFO | DefaultCamelContext.java 3258 | Apache Camel 2.18.1 (CamelContext: camel-1) uptime 2.627 seconds
+2018-01-09 19:28:29,188 | INFO | DefaultCamelContext.java 3259 | Apache Camel 2.18.1 (CamelContext: camel-1) is shutdown in 0.018 seconds
+2018-01-09 19:30:49,780 | INFO | DefaultCamelContext.java 2901 | Apache Camel 2.18.1 (CamelContext: camel-1) is starting
+2018-01-09 19:30:49,784 | INFO | ManagedManagementStrategy.java 191 | JMX is enabled
+2018-01-09 19:30:49,967 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2018-01-09 19:30:49,984 | INFO | DefaultRuntimeEndpointRegistry.java 203 | Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+2018-01-09 19:30:50,111 | INFO | DefaultCamelContext.java 3148 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-01-09 19:30:50,148 | INFO | DefaultCamelContext.java 3689 | Route: route1 started and consuming from: timer://CSVReader?period=10s
+2018-01-09 19:30:50,150 | INFO | DefaultCamelContext.java 2943 | Total 1 routes, of which 1 are started.
+2018-01-09 19:30:50,152 | INFO | DefaultCamelContext.java 2944 | Apache Camel 2.18.1 (CamelContext: camel-1) started in 0.371 seconds
+2018-01-09 19:30:51,164 | INFO | CamelLogger.java 159 | Timer Triggered
+2018-01-09 19:30:51,170 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2018-01-09 19:30:51,170 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2018-01-09 19:30:52,178 | WARN | MarkerFileExclusiveReadLockStrategy.java 176 | Deleting orphaned lock file: data/input/file2.txt.camelLock
+2018-01-09 19:30:52,179 | WARN | MarkerFileExclusiveReadLockStrategy.java 176 | Deleting orphaned lock file: data/input/file3.txt.camelLock
+2018-01-09 19:30:52,185 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/tutorialcodebase/folder-polling-camelapp/data/input/file1.txt, CamelFileLastModified=1515547228000, CamelFileLength=5, CamelFileName=file1.txt, CamelFileNameConsumed=file1.txt, CamelFileNameOnly=file1.txt, CamelFileParent=data/input, CamelFilePath=data/input/file1.txt, CamelFileRelativePath=file1.txt, CamelToEndpoint=file://data/input?noop=true}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file1.txt]]]
+2018-01-09 19:31:01,159 | INFO | CamelLogger.java 159 | Timer Triggered
+2018-01-09 19:31:01,160 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {CamelFileAbsolute=false, CamelFileAbsolutePath=/Dilip/Study/ApacheCamel/TeachApacheCamel/tutorialcodebase/folder-polling-camelapp/data/input/file2.txt, CamelFileLastModified=1515547647000, CamelFileLength=0, CamelFileName=file2.txt, CamelFileNameConsumed=file2.txt, CamelFileNameOnly=file2.txt, CamelFileParent=data/input, CamelFilePath=data/input/file2.txt, CamelFileRelativePath=file2.txt, CamelToEndpoint=file://data/input?noop=true}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file2.txt]]]
+2018-01-09 19:31:07,340 | INFO | MainSupport.java 80 | Received hang up - stopping the main instance.
+2018-01-09 19:31:07,341 | INFO | DefaultCamelContext.java 3169 | Apache Camel 2.18.1 (CamelContext: camel-1) is shutting down
+2018-01-09 19:31:07,341 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2018-01-09 19:31:07,343 | INFO | DefaultShutdownStrategy.java 576 | Route: route1 shutdown complete, was consuming from: timer://CSVReader?period=10s
+2018-01-09 19:31:07,343 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-01-09 19:31:07,357 | INFO | MainLifecycleStrategy.java 44 | CamelContext: camel-1 has been shutdown, triggering shutdown of the JVM.
+2018-01-09 19:31:07,359 | INFO | DefaultCamelContext.java 3258 | Apache Camel 2.18.1 (CamelContext: camel-1) uptime 17.581 seconds
+2018-01-09 19:31:07,360 | INFO | DefaultCamelContext.java 3259 | Apache Camel 2.18.1 (CamelContext: camel-1) is shutdown in 0.018 seconds
