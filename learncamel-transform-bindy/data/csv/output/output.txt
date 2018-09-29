@@ -1,2 +1,2 @@
-id,firstName,lastName
-123,Dilip,Sundar
+id*firstName*lastName
+123*Dilip*Sundar

@@ -7,6 +7,9 @@ import org.apache.camel.builder.RouteBuilder;
 public class HeaderAndFooterRoute extends RouteBuilder  {
 
 
+    private final String HEADER = "(MH7000)";
+    private final String FOOTER = "(RRRR)";
+
     public void configure() throws Exception {
 
         from("file:data/headerandfooter/input?fileName=samplefile&noop=true")
@@ -16,10 +19,11 @@ public class HeaderAndFooterRoute extends RouteBuilder  {
                     public void process(Exchange exchange) throws Exception {
                         String body = (String) exchange.getIn().getBody();
                         if(((String) exchange.getIn().getBody()).contains("(") || ((String) exchange.getIn().getBody()).contains(")")){
-
                             body =  body.replace("(","");
                             body =  body.replace(")","");
-                            body =  body.replace("RRRR","");
+                            if(!body.equals(""))
+                                body = HEADER.concat(body);
+                            body =  body.replace("RRRR",FOOTER);
 
                         };
                         exchange.getIn().setBody(body);

@@ -9,6 +9,27 @@ import java.io.File;
 
 public class HeaderAndFooterRouteTest extends CamelTestSupport {
 
+
+    private String destinationDirectory = "data/headerandfooter/output";
+    @Override
+    public void doPreSetup(){
+
+        File file = new File(destinationDirectory);
+
+        if(file.exists()){
+            for(File file1 : file.listFiles()){
+                file1.delete();
+            }
+
+            file.delete();
+
+            System.out.println("Directory and files are deleted.");
+        }
+
+
+
+    }
+
     @Override
     public RoutesBuilder createRouteBuilder(){
 
