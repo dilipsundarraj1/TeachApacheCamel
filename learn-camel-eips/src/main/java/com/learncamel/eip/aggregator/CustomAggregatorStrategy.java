@@ -3,7 +3,7 @@ package com.learncamel.eip.aggregator;
 import org.apache.camel.Exchange;
 
 /**
- * Created by z001qgd on 6/2/17.
+ * Created by Dilip on 6/2/17.
  */
 public class CustomAggregatorStrategy implements org.apache.camel.processor.aggregate.AggregationStrategy {
 

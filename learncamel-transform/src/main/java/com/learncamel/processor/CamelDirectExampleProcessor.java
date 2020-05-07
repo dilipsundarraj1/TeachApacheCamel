@@ -3,7 +3,7 @@ package com.learncamel.processor;
 import org.apache.camel.Exchange;
 
 /**
- * Created by z001qgd on 6/10/17.
+ * Created by Dilip on 6/10/17.
  */
 public class CamelDirectExampleProcessor implements org.apache.camel.Processor {
 

@@ -14,7 +14,7 @@ import javax.sql.DataSource;
 import java.util.ArrayList;
 
 /**
- * Created by z001qgd on 7/16/17.
+ * Created by Dilip on 7/16/17.
  */
 public class Rest2DBRouteTest extends CamelTestSupport {
 

@@ -1,7 +1,7 @@
 package com.learncamel.bean;
 
 /**
- * Created by z001qgd on 6/14/17.
+ * Created by Dilip on 6/14/17.
  */
 public class CamelBean {
 

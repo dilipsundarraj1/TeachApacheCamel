@@ -3,7 +3,7 @@ package com.learncamel.eip.aggregator;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.processor.*;
 /**
- * Created by z001qgd on 6/1/17.
+ * Created by Dilip on 6/1/17.
  */
 public class AggregatorEIPRoute extends RouteBuilder {
 

@@ -6,7 +6,7 @@ import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.gson.GsonDataFormat;
 
 /**
- * Created by z001qgd on 12/14/17.
+ * Created by Dilip on 12/14/17.
  */
 public class StudentRoute extends RouteBuilder {
 

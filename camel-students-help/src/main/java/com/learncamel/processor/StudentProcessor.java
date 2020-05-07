@@ -5,7 +5,7 @@ import com.learncamel.model.Student;
 import org.apache.camel.Exchange;
 
 /**
- * Created by z001qgd on 12/14/17.
+ * Created by Dilip on 12/14/17.
  */
 public class StudentProcessor implements org.apache.camel.Processor {
 

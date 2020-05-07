@@ -5,7 +5,7 @@ import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.impl.DefaultCamelContext;
 
 /**
- * Created by z001qgd on 5/30/17.
+ * Created by Dilip on 5/30/17.
  */
 public class CopyFilesCamel {
 

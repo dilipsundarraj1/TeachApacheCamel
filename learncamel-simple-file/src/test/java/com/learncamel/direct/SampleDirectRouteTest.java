@@ -10,7 +10,7 @@ import org.junit.Test;
 import java.io.File;
 
 /**
- * Created by z001qgd on 6/8/17.
+ * Created by Dilip on 6/8/17.
  */
 public class SampleDirectRouteTest extends CamelTestSupport {
     @Override
@@ -25,7 +25,7 @@ public class SampleDirectRouteTest extends CamelTestSupport {
         /**
          * Producer Template.
          */
-        template.sendBody("direct:sampleInput","Hello" );
+        template.sendBodyAndHeader("direct:sampleInput","Hello", "hi" , 1);
 
         Thread.sleep(5000);
         

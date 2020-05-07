@@ -1,7 +1,7 @@
 package com.learncamel.model;
 
 /**
- * Created by z001qgd on 12/14/17.
+ * Created by Dilip on 12/14/17.
  */
 public class Student {
 

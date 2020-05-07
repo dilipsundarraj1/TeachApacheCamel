@@ -5,7 +5,7 @@ import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.gson.GsonDataFormat;
 
 /**
- * Created by z001qgd on 12/20/17.
+ * Created by Dilip on 12/20/17.
  */
 public class MarshalUsingGson extends RouteBuilder {
     public void configure() throws Exception {

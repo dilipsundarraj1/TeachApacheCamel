@@ -6,7 +6,7 @@ import org.apache.camel.dataformat.bindy.fixed.BindyFixedLengthDataFormat;
 import org.apache.camel.spi.DataFormat;
 
 /**
- * Created by z001qgd on 12/24/17.
+ * Created by Dilip on 12/24/17.
  */
 public class FixedPositionUnMarshalRouteDelimiterSalary extends RouteBuilder {
     public void configure() throws Exception {

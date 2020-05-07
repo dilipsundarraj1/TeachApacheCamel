@@ -4,7 +4,7 @@ import org.apache.camel.dataformat.bindy.annotation.CsvRecord;
 import org.apache.camel.dataformat.bindy.annotation.DataField;
 
 /**
- * Created by z001qgd on 12/18/17.
+ * Created by Dilip on 12/18/17.
  */
 @CsvRecord( separator = ",",skipFirstLine=true)
 public class Address {

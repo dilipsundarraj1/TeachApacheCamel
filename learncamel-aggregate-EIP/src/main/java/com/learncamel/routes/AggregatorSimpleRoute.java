@@ -4,7 +4,7 @@ import com.learncamel.aggregator.AggregatorSimpleRouteStrategy;
 import org.apache.camel.builder.RouteBuilder;
 
 /**
- * Created by z001qgd on 12/21/17.
+ * Created by Dilip on 12/21/17.
  */
 public class AggregatorSimpleRoute extends RouteBuilder{
 

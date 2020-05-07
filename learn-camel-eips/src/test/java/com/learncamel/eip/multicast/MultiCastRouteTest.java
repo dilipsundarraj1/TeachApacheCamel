@@ -8,7 +8,7 @@ import org.junit.Test;
 import java.io.File;
 
 /**
- * Created by z001qgd on 7/22/17.
+ * Created by Dilip on 7/22/17.
  */
 public class MultiCastRouteTest extends CamelTestSupport {
 

@@ -4,7 +4,7 @@ import org.apache.camel.dataformat.bindy.annotation.KeyValuePairField;
 import org.apache.camel.dataformat.bindy.annotation.Message;
 
 /**
- * Created by z001qgd on 12/26/17.
+ * Created by Dilip on 12/26/17.
  */
 @Message(keyValuePairSeparator = "=", pairSeparator = " ")
 public class Student {

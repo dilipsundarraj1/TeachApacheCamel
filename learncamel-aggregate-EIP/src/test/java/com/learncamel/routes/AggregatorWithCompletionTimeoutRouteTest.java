@@ -7,7 +7,7 @@ import org.apache.camel.test.junit4.CamelTestSupport;
 import org.junit.Test;
 
 /**
- * Created by z001qgd on 12/21/17.
+ * Created by Dilip on 12/21/17.
  */
 public class AggregatorWithCompletionTimeoutRouteTest extends CamelTestSupport {
 

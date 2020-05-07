@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 /**
- * Created by z001qgd on 12/23/17.
+ * Created by Dilip on 12/23/17.
  */
 //@FixedLengthRecord(length = 21,ignoreTrailingChars = true)ignoreTrailingChars-> This is used to ignore the characters after the last mapped field.
 //@FixedLengthRecord(length = 30)

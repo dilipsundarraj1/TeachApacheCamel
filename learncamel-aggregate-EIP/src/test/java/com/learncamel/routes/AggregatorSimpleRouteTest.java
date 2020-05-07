@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by z001qgd on 12/21/17.
+ * Created by Dilip on 12/21/17.
  */
 public class AggregatorSimpleRouteTest extends CamelTestSupport {
 

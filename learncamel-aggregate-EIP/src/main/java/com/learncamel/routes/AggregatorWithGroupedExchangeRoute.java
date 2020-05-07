@@ -4,7 +4,7 @@ import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.processor.aggregate.GroupedExchangeAggregationStrategy;
 
 /**
- * Created by z001qgd on 12/22/17.
+ * Created by Dilip on 12/22/17.
  */
 public class AggregatorWithGroupedExchangeRoute extends RouteBuilder{
 

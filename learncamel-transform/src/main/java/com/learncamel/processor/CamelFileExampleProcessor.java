@@ -8,7 +8,7 @@ import java.io.File;
 import java.io.FileReader;
 
 /**
- * Created by z001qgd on 6/12/17.
+ * Created by Dilip on 6/12/17.
  */
 public class CamelFileExampleProcessor implements org.apache.camel.Processor {
 

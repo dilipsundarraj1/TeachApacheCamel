@@ -3,7 +3,7 @@ package com.learncamel.route;
 import org.apache.camel.builder.RouteBuilder;
 
 /**
- * Created by z001qgd on 1/9/18.
+ * Created by Dilip on 1/9/18.
  */
 public class CopyFilesRoute extends RouteBuilder {
     public void configure() throws Exception {

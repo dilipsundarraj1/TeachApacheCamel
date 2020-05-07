@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by z001qgd on 6/17/17.
+ * Created by Dilip on 6/17/17.
  */
 public class UnMarshalUsingXStream extends RouteBuilder {
 

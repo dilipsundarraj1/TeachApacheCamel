@@ -10,7 +10,7 @@ import javax.jms.ConnectionFactory;
 import static org.apache.activemq.camel.component.ActiveMQComponent.activeMQComponent;
 
 /**
- * Created by z001qgd on 5/26/17.
+ * Created by Dilip on 5/26/17.
  */
 public class JmsReadRoute extends RouteBuilder {
 

@@ -3,7 +3,7 @@ package com.learncamel.direct;
 import org.apache.camel.builder.RouteBuilder;
 
 /**
- * Created by z001qgd on 6/8/17.
+ * Created by Dilip on 6/8/17.
  */
 public class SampleDirectRoute extends RouteBuilder {
 

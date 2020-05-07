@@ -4,7 +4,7 @@ import com.learncamel.bean.CamelBean;
 import org.apache.camel.builder.RouteBuilder;
 
 /**
- * Created by z001qgd on 6/14/17.
+ * Created by Dilip on 6/14/17.
  */
 public class CamelModifyBeanRoute extends RouteBuilder {
 

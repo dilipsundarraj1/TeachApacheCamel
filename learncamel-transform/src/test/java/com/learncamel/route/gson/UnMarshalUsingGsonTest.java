@@ -6,7 +6,7 @@ import org.apache.camel.test.junit4.CamelTestSupport;
 import org.junit.Test;
 
 /**
- * Created by z001qgd on 12/19/17.
+ * Created by Dilip on 12/19/17.
  */
 public class UnMarshalUsingGsonTest extends CamelTestSupport {
 

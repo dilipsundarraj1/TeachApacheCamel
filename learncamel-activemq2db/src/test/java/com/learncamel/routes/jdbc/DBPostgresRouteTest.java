@@ -12,7 +12,7 @@ import javax.sql.DataSource;
 import java.util.ArrayList;
 
 /**
- * Created by z001qgd on 5/27/17.
+ * Created by Dilip on 5/27/17.
  */
 public class DBPostgresRouteTest extends CamelTestSupport {
 

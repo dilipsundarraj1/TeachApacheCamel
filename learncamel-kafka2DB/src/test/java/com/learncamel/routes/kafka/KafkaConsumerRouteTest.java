@@ -6,7 +6,7 @@ import org.apache.camel.test.junit4.CamelTestSupport;
 import org.junit.Test;
 
 /**
- * Created by z001qgd on 7/11/17.
+ * Created by Dilip on 7/11/17.
  */
 public class KafkaConsumerRouteTest extends CamelTestSupport {
 

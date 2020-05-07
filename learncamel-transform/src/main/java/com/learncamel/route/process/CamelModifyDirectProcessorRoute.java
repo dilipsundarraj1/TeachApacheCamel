@@ -4,7 +4,7 @@ import com.learncamel.processor.CamelDirectExampleProcessor;
 import org.apache.camel.builder.RouteBuilder;
 
 /**
- * Created by z001qgd on 6/10/17.
+ * Created by Dilip on 6/10/17.
  */
 public class CamelModifyDirectProcessorRoute extends RouteBuilder {
 
