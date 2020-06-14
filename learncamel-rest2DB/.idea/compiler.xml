@@ -9,8 +9,8 @@
         <module name="learncamel-rest2DB" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="learncamel-rest2DB" target="1.5" />
+    <bytecodeTargetLevel target="11">
+      <module name="learncamel-rest2DB" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
